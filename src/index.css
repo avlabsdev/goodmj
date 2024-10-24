@@ -16,6 +16,14 @@ body {
 	background-color: #439471;
 }
 
+.custom-text-lightgreen {
+	color: #7acaa6;
+}
+
+.custom-bg-lightgreen {
+	background-color: #7acaa6;
+}
+
 .custom-text-darkblue {
 	color: #0c214a;
 }

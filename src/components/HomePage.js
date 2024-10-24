@@ -35,7 +35,7 @@ const HomePage = () => {
         </section>
       </main>
       <footer>
-        <p className="text-white">&copy; Copyright 2024 AV Web Design. All rights reserved.</p>
+        <p className="text-white">&copy; Copyright 2024 <a href="#/" className="underline hover:no-underline">AV Web Design</a>. All rights reserved.</p>
       </footer>
     </div>
   );
