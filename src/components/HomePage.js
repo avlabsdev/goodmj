@@ -25,10 +25,6 @@ const HomePage = () => {
           </div>
         </section>
       </main>
-      <footer className="flex justify-between items-center">
-        <p className="text-white">&copy; Copyright 2024 <a href="#/" className="underline hover:no-underline">AV Web Design</a>. All rights reserved.</p>
-        <a href="#/"><img src={githubIcon} alt="GitHub icon" className="w-5" /></a>
-      </footer>
     </div>
   );
 }

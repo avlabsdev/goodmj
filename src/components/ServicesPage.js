@@ -5,7 +5,7 @@ import githubIcon from "../images/github-brands-solid.svg";
 
 const ServicesPage = () => {
   return (
-    <div className="container mx-auto py-8 flex flex-col gap-8 my-2">
+    <div className="container mx-auto py-4 flex flex-col gap-8">
       <main className="bg-white rounded-lg shadow">
         <section className="flex justify-between items-center">
           <div className="w-1/2 border-white border-2 rounded-lg">
@@ -22,10 +22,6 @@ const ServicesPage = () => {
           </div>
         </section>
       </main>
-      <footer className="flex justify-between items-center">
-        <p className="text-white">&copy; Copyright 2024 <a href="#/" className="underline hover:no-underline">AV Web Design</a>. All rights reserved.</p>
-        <a href="#/"><img src={githubIcon} alt="GitHub icon" className="w-5" /></a>
-      </footer>
     </div>
   );
 }
