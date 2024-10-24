@@ -2,14 +2,21 @@ import React from 'react';
 import logo from '../logo.svg';
 import weedJarPhoto from '../images/weed-jar.jpg';
 import givingHandPhoto from '../images/giving-cannabis.svg';
+import userIcon from "../images/user-solid.svg";
+import signupIcon from "../images/file-signature-solid.svg";
 
 const HomePage = () => {
   return (
     <div className="container mx-auto py-8 flex flex-col gap-8 my-2">
       <header className="bg-white flex justify-between items-center py-4 px-6 rounded-lg shadow">
-        <a href="#/" className="flex items-center justify-center p-2 text-xl">
-          <img src={logo} alt="Logo Icon" className="w-8 mr-2" /><span className="font-bold">Good</span>Mj
-        </a>
+        <div className="flex items-center gap-4">
+          <a href="#/" className="flex items-center justify-center p-2 text-xl">
+            <img src={logo} alt="Logo Icon" className="w-8 mr-2" /><span className="font-bold">Good</span>Mj
+          </a>
+          <div className="pl-6 border-l-2 text-sm flex items-center gap-2">
+            <a href="#/" className="underline hover:no-underline flex items-center gap-2"><img src={userIcon} alt="User icon" className="w-3" />Login</a> / <a href="#/" className="underline hover:no-underline flex items-center gap-2"><img src={signupIcon} alt="User icon" className="w-4" />Signup</a>
+          </div>
+        </div>
         <nav className="flex gap-6 text-md font-semibold">
           <a className="p-2" href="#/">Services</a>
           <a className="p-2" href="#/">Plans</a>
@@ -24,7 +31,7 @@ const HomePage = () => {
             <img src={weedJarPhoto} alt="Cannabis jar on kitchen counter" className="rounded-tl-lg rounded-bl-lg flex-grow object-cover h-full" />
           </div>
           <div className="p-20 w-1/2 flex flex-col gap-4 justify-center items-center relative">
-          <img src={givingHandPhoto} alt="Giving hands with cannabis leaf in palm" className="absolute w-1/5 -top-2 right-24" />
+            <img src={givingHandPhoto} alt="Giving hands with cannabis leaf in palm" className="absolute w-1/5 -top-2 right-24" />
             <h1 className="custom-text-green text-7xl font-bold">Affordable cannabis for all</h1>
             <p className="font-semibold text-lg">The only place here to help you get all your cannabis products and prescriptions at prices you can afford and sustain.</p>
             <div className="flex gap-2 mt-4 w-full">
