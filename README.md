@@ -1,3 +1,3 @@
 # GoodMj
 
-![cannabis-app3](https://github.com/user-attachments/assets/acc31fb0-aaf7-4053-aa92-24ca69e39f25)
+![cannabis-app3](https://github.com/user-attachments/assets/d3cde880-90fd-4d11-ac1b-9d3c64cff556)
