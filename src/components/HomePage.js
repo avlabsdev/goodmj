@@ -11,14 +11,14 @@ const HomePage = () => {
     <div className="container mx-auto py-8 flex flex-col gap-8 my-2">
       <header className="bg-white flex justify-between items-center py-4 px-6 rounded-lg shadow">
         <div className="flex items-center gap-4">
-          <a href="#/" className="flex items-center justify-center p-2 text-xl">
+          <a href="#/" className="flex items-center justify-center p-2 text-xl custom-text-darkblue">
             <img src={logo} alt="Logo Icon" className="w-8 mr-2" /><span className="font-bold">Good</span>Mj
           </a>
           <div className="pl-6 border-l-2 text-sm flex items-center gap-2">
             <a href="#/" className="underline hover:no-underline flex items-center gap-2 font-medium"><img src={userIcon} alt="User icon" className="w-3" />Login</a> / <a href="#/" className="underline hover:no-underline flex items-center gap-2 font-medium"><img src={signupIcon} alt="User icon" className="w-4" />Signup</a>
           </div>
         </div>
-        <nav className="flex gap-6 text-md font-semibold">
+        <nav className="flex gap-6 text-md font-semibold custom-text-darkblue">
           <a className="p-2" href="#/">Services</a>
           <a className="p-2" href="#/">Plans</a>
           <a className="p-2" href="#/">Menu</a>
@@ -36,8 +36,8 @@ const HomePage = () => {
             <h1 className="custom-text-green 2xl:text-7xl font-bold xl:text-5xl">Affordable cannabis for all</h1>
             <p className="font-semibold 2xl:text-lg xl:text-base">The only place here to help you get all your cannabis products and prescriptions at prices you can afford and sustain.</p>
             <div className="flex gap-2 mt-4 w-full">
-              <a href="#/" className="py-4 bg-blue-300 text-center rounded-md custom-bg-green text-white font-medium w-full">How It Works</a>
-              <a href="#/" className="py-4 bg-blue-300 text-center rounded-md custom-bg-darkblue text-white font-medium w-full">View Services</a>
+              <a href="#/" className="py-4 text-center rounded-md custom-bg-green text-white font-medium w-full">How It Works</a>
+              <a href="#/" className="py-4 text-center rounded-md custom-bg-darkblue text-white font-medium w-full">View Services</a>
             </div>
           </div>
         </section>
