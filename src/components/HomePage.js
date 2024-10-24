@@ -10,10 +10,12 @@ const HomePage = () => {
         <a href="#/" className="flex items-center justify-center p-2 text-xl">
           <img src={logo} alt="Logo Icon" className="w-8 mr-2" /><span className="font-bold">Good</span>Mj
         </a>
-        <nav className="flex gap-6 text-lg font-medium">
-          <a className="p-2" href="#/">Link</a>
-          <a className="p-2" href="#/">Link</a>
-          <a className="p-2" href="#/">Link</a>
+        <nav className="flex gap-6 text-md font-semibold">
+          <a className="p-2" href="#/">Services</a>
+          <a className="p-2" href="#/">Plans</a>
+          <a className="p-2" href="#/">Menu</a>
+          <a className="p-2" href="#/">Strainfinder&trade;</a>
+          <a className="p-2" href="#/">Help</a>
         </nav>
       </header>
       <main className="bg-white rounded-lg shadow">
