@@ -21,8 +21,12 @@ const HomePage = () => {
             <img src={weedJarPhoto} alt="Cannabis jar on kitchen counter" className="rounded-tl-lg rounded-bl-lg flex-grow object-cover h-full" />
           </div>
           <div className="p-10 w-1/2 flex flex-col gap-4 justify-center">
-            <h1 className="font-bold text-green-600 text-4xl">Affordable cannabis for all</h1>
-            <p className="font-medium text-lg">The only place that is actually here to help you get all your favorite cannabis products and prescriptions at prices you can afford and sustain.</p>
+            <h1 className="custom-text-green text-4xl font-bold">Affordable cannabis for all</h1>
+            <p className="font-medium text-lg">The only place here to help you get all your cannabis products and prescriptions at prices you can afford and sustain.</p>
+            <div className="flex gap-2 mt-4">
+              <a href="#/" className="py-4 px-12 bg-blue-300 text-center rounded-md custom-bg-green text-white">Button</a>
+              <a href="#/" className="py-4 px-12 bg-blue-300 text-center rounded-md custom-bg-darkblue text-white">Button</a>
+            </div>
           </div>
         </section>
       </main>
