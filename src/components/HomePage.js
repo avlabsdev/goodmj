@@ -28,8 +28,8 @@ const HomePage = () => {
             <h1 className="custom-text-green text-7xl font-bold">Affordable cannabis for all</h1>
             <p className="font-semibold text-lg">The only place here to help you get all your cannabis products and prescriptions at prices you can afford and sustain.</p>
             <div className="flex gap-2 mt-4 w-full">
-              <a href="#/" className="py-4 bg-blue-300 text-center rounded-md custom-bg-green text-white font-medium w-full">Button</a>
-              <a href="#/" className="py-4 bg-blue-300 text-center rounded-md custom-bg-darkblue text-white font-medium w-full">Button</a>
+              <a href="#/" className="py-4 bg-blue-300 text-center rounded-md custom-bg-green text-white font-medium w-full">How It Works</a>
+              <a href="#/" className="py-4 bg-blue-300 text-center rounded-md custom-bg-darkblue text-white font-medium w-full">View Services</a>
             </div>
           </div>
         </section>
