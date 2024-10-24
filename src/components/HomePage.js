@@ -4,6 +4,7 @@ import weedJarPhoto from '../images/weed-jar.jpg';
 import givingHandPhoto from '../images/giving-cannabis.svg';
 import userIcon from "../images/user-solid.svg";
 import signupIcon from "../images/file-signature-solid.svg";
+import githubIcon from "../images/github-brands-solid.svg";
 
 const HomePage = () => {
   return (
@@ -41,8 +42,9 @@ const HomePage = () => {
           </div>
         </section>
       </main>
-      <footer>
+      <footer className="flex justify-between items-center">
         <p className="text-white">&copy; Copyright 2024 <a href="#/" className="underline hover:no-underline">AV Web Design</a>. All rights reserved.</p>
+        <a href="#/"><img src={githubIcon} alt="GitHub icon" className="w-5" /></a>
       </footer>
     </div>
   );
