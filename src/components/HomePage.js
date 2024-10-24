@@ -1,10 +1,6 @@
 import React from 'react';
-import logo from '../logo.svg';
 import weedJarPhoto from '../images/weed-jar.jpg';
 import givingHandPhoto from '../images/giving-cannabis.svg';
-import userIcon from "../images/user-solid.svg";
-import signupIcon from "../images/file-signature-solid.svg";
-import githubIcon from "../images/github-brands-solid.svg";
 
 const HomePage = () => {
   return (

@@ -1,7 +1,6 @@
 import React from 'react';
 import weedJarPhoto from '../images/weed-jar.jpg';
 import givingHandPhoto from '../images/giving-cannabis.svg';
-import githubIcon from "../images/github-brands-solid.svg";
 
 const ServicesPage = () => {
   return (
