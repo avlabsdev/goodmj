@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../logo.svg';
 import weedJarPhoto from '../images/weed-jar.jpg';
-import givingHandPhoto from '../images/giving-cannabis.png';
+import givingHandPhoto from '../images/giving-cannabis.svg';
 
 const HomePage = () => {
   return (
