@@ -14,7 +14,7 @@ const HomePage = () => {
             <img src={logo} alt="Logo Icon" className="w-8 mr-2" /><span className="font-bold">Good</span>Mj
           </a>
           <div className="pl-6 border-l-2 text-sm flex items-center gap-2">
-            <a href="#/" className="underline hover:no-underline flex items-center gap-2"><img src={userIcon} alt="User icon" className="w-3" />Login</a> / <a href="#/" className="underline hover:no-underline flex items-center gap-2"><img src={signupIcon} alt="User icon" className="w-4" />Signup</a>
+            <a href="#/" className="underline hover:no-underline flex items-center gap-2 font-medium"><img src={userIcon} alt="User icon" className="w-3" />Login</a> / <a href="#/" className="underline hover:no-underline flex items-center gap-2 font-medium"><img src={signupIcon} alt="User icon" className="w-4" />Signup</a>
           </div>
         </div>
         <nav className="flex gap-6 text-md font-semibold">
