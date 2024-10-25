@@ -6,7 +6,7 @@ const MenuPage = () => {
       <main className="bg-white rounded-lg shadow">
         <section className="flex justify-between items-center">
           <div className="p-20 w-full flex flex-col gap-4 justify-center relative">
-            <h1 className="custom-text-green 2xl:text-7xl font-bold xl:text-5xl">Menu Search</h1>
+            <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl">Menu Search</h1>
             <p className="font-semibold 2xl:text-lg xl:text-base">Find menus from dispensaries all around you in an instant.</p>
           </div>
         </section>

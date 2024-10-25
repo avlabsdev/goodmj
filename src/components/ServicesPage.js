@@ -18,8 +18,8 @@ const ServicesPage = () => {
               <img src={certIcon} alt="Certificate icon" className="w-14" />
               <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-3xl">Services & Features</h1>
             </div>
-            <h2 className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg">We have an ever-growing list of services and features to offer
-              you with affordable pricing options that work for you.</h2>
+            <p className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg">We have an ever-growing list of services and features to offer
+              you with affordable pricing options that work for you.</p>
             <p className="mt-4">*Click on any of the below services or features to learn more.</p>
             <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
