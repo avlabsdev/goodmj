@@ -9,19 +9,11 @@ body {
 }
 
 .custom-text-green {
-	color: #439471;
+	color: #52b68b;
 }
 
 .custom-bg-green {
-	background-color: #439471;
-}
-
-.custom-text-lightgreen {
-	color: #7acaa6;
-}
-
-.custom-bg-lightgreen {
-	background-color: #7acaa6;
+	background-color: #52b68b;
 }
 
 .custom-text-darkblue {

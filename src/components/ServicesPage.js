@@ -18,12 +18,12 @@ const ServicesPage = () => {
           </div>
           <div className="w-2/5">
           <img src={weedLabPhoto} alt="Cannabis lab" className="rounded-lg shadow border-2 border-white" />
-            <h2>We only work with companies that
+            <h2 className="custom-text-green font-semibold 2xl:text-2xl xl:text-xl">We only work with companies that
               pride themselves on proper lab
               testing and quality assurance.</h2>
-            <p>Our promise is to provide you with the highest
+            <p className="text-white">Our promise is to provide you with the highest
               quality cannabis for the lowest costs available.</p>
-            <p>We guarantee high-quality products that
+            <p className="text-white">We guarantee high-quality products that
               go through rigorous lab testing and quality
               assurance.</p>
             <div className="flex gap-2 mt-4 w-full">
