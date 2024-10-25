@@ -4,7 +4,7 @@ import givingHandPhoto from '../images/giving-cannabis.svg';
 
 const StrainfinderPage = () => {
   return (
-    <div className="container mx-auto py-4 flex flex-col gap-8">
+    <div className="container mx-auto py-4 flex flex-col gap-8 px-4">
       <main className="bg-white rounded-lg shadow">
         <section className="flex justify-between items-center">
           <div className="w-1/2 border-white border-2 rounded-lg">

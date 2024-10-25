@@ -21,7 +21,7 @@ const ServicesPage = () => {
             <h2 className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg">We have an ever-growing list of services and features to offer
               you with affordable pricing options that work for you.</h2>
             <p className="mt-4">*Click on any of the below services or features to learn more.</p>
-            <a href="#/" className="flex w-full items-center text-sm font-medium">
+            <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
                 <img src={drugsIcon} alt="Cannabis bottle icon" className="w-10" />
               </div>
@@ -32,7 +32,7 @@ const ServicesPage = () => {
                 <img src={infoIcon} alt="Info icon" className="w-8" />
               </div>
             </a>
-            <a href="#/" className="flex w-full items-center text-sm font-medium">
+            <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
                 <img src={locationIcon} alt="Location icon" className="w-10" />
               </div>
@@ -43,7 +43,7 @@ const ServicesPage = () => {
                 <img src={infoIcon} alt="Info icon" className="w-8" />
               </div>
             </a>
-            <a href="#/" className="flex w-full items-center text-sm font-medium">
+            <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
                 <img src={pillsIcon} alt="Medication icon" className="w-10" />
               </div>
@@ -54,7 +54,7 @@ const ServicesPage = () => {
                 <img src={infoIcon} alt="Info icon" className="w-8" />
               </div>
             </a>
-            <a href="#/" className="flex w-full items-center text-sm font-medium">
+            <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
                 <img src={bagIcon} alt="Shopping bag icon" className="w-10" />
               </div>
@@ -65,7 +65,7 @@ const ServicesPage = () => {
                 <img src={infoIcon} alt="Info icon" className="w-8" />
               </div>
             </a>
-            <a href="#/" className="flex w-full items-center text-sm font-medium">
+            <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
                 <img src={extractIcon} alt="Lab testing icon" className="w-10" />
               </div>
