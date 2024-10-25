@@ -3,6 +3,10 @@ import certIcon from '../images/certificate.svg';
 import weedLabPhoto from '../images/weed-lab.jpg';
 import infoIcon from '../images/circle-info-solid.svg';
 import drugsIcon from '../images/drugs.svg';
+import locationIcon from '../images/location.svg';
+import pillsIcon from '../images/pills.svg';
+import bagIcon from '../images/bag.svg';
+import extractIcon from '../images/extract.svg';
 
 const ServicesPage = () => {
   return (
@@ -30,10 +34,10 @@ const ServicesPage = () => {
             </a>
             <a href="#/" className="flex w-full items-center text-sm font-medium">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
-                <img src={drugsIcon} alt="Cannabis bottle icon" className="w-10" />
+                <img src={locationIcon} alt="Location icon" className="w-10" />
               </div>
               <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
-                <p>Obtain a medical cannabis card for extra benefits and discounted pricing.</p>
+                <p>We work with all dispensaries in the USA.</p>
               </div>
               <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
                 <img src={infoIcon} alt="Info icon" className="w-8" />
@@ -41,10 +45,10 @@ const ServicesPage = () => {
             </a>
             <a href="#/" className="flex w-full items-center text-sm font-medium">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
-                <img src={drugsIcon} alt="Cannabis bottle icon" className="w-10" />
+                <img src={pillsIcon} alt="Medication icon" className="w-10" />
               </div>
               <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
-                <p>Obtain a medical cannabis card for extra benefits and discounted pricing.</p>
+                <p>Get the proper dosages you need for easier medicine administration.</p>
               </div>
               <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
                 <img src={infoIcon} alt="Info icon" className="w-8" />
@@ -52,10 +56,10 @@ const ServicesPage = () => {
             </a>
             <a href="#/" className="flex w-full items-center text-sm font-medium">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
-                <img src={drugsIcon} alt="Cannabis bottle icon" className="w-10" />
+                <img src={bagIcon} alt="Shopping bag icon" className="w-10" />
               </div>
               <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
-                <p>Obtain a medical cannabis card for extra benefits and discounted pricing.</p>
+                <p>All the cannabis products you need at a price you can afford.</p>
               </div>
               <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
                 <img src={infoIcon} alt="Info icon" className="w-8" />
@@ -63,10 +67,10 @@ const ServicesPage = () => {
             </a>
             <a href="#/" className="flex w-full items-center text-sm font-medium">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
-                <img src={drugsIcon} alt="Cannabis bottle icon" className="w-10" />
+                <img src={extractIcon} alt="Lab testing icon" className="w-10" />
               </div>
               <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
-                <p>Obtain a medical cannabis card for extra benefits and discounted pricing.</p>
+                <p>All products are rigorously lab tested for quality assurance.</p>
               </div>
               <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
                 <img src={infoIcon} alt="Info icon" className="w-8" />
