@@ -11,7 +11,7 @@ const Navbar = () => {
           <a href="/" className="flex items-center justify-center p-2 text-xl custom-text-darkblue">
             <img src={logo} alt="Logo Icon" className="w-8 mr-2" /><span className="font-bold">Good</span>Mj
           </a>
-          <div className="pl-6 border-l-2 text-sm flex items-center gap-2">
+          <div className="lg:flex pl-6 border-l-2 text-sm flex items-center gap-2 hidden">
             <a href="#/" className="underline hover:no-underline flex items-center gap-2 font-medium"><img src={userIcon} alt="User icon" className="w-3" />Login</a> / <a href="#/" className="underline hover:no-underline flex items-center gap-2 font-medium"><img src={signupIcon} alt="User icon" className="w-4" />Signup</a>
           </div>
         </div>
