@@ -15,7 +15,7 @@ const Navbar = () => {
             <a href="#/" className="underline hover:no-underline flex items-center gap-2 font-medium"><img src={userIcon} alt="User icon" className="w-3" />Login</a> / <a href="#/" className="underline hover:no-underline flex items-center gap-2 font-medium"><img src={signupIcon} alt="User icon" className="w-4" />Signup</a>
           </div>
         </div>
-        <nav className="flex gap-6 text-md font-semibold custom-text-darkblue">
+        <nav className="lg:flex gap-6 text-md font-semibold custom-text-darkblue hidden">
           <a className="p-2" href="/services">Services</a>
           <a className="p-2" href="/plans">Plans</a>
           <a className="p-2" href="/menu">Menu</a>
