@@ -16,17 +16,17 @@ const ServicesPage = () => {
               you with affordable pricing options that work for you.</h2>
             <p>*This is more text to explain the below content.</p>
           </div>
-          <div className="w-2/5">
-          <img src={weedLabPhoto} alt="Cannabis lab" className="rounded-lg shadow border-2 border-white" />
-            <h2 className="custom-text-green font-semibold 2xl:text-2xl xl:text-xl">We only work with companies that
+          <div className="w-2/5 flex flex-col gap-4">
+            <img src={weedLabPhoto} alt="Cannabis lab" className="rounded-lg shadow border-2 border-white" />
+            <h2 className="custom-text-green font-bold 2xl:text-xl xl:text-xl px-4">We only work with companies that
               pride themselves on proper lab
               testing and quality assurance.</h2>
-            <p className="text-white">Our promise is to provide you with the highest
+            <p className="text-white px-4">Our promise is to provide you with the highest
               quality cannabis for the lowest costs available.</p>
-            <p className="text-white">We guarantee high-quality products that
+            <p className="text-white px-4">We guarantee high-quality products that
               go through rigorous lab testing and quality
               assurance.</p>
-            <div className="flex gap-2 mt-4 w-full">
+            <div className="flex gap-2 mt-4 w-full px-4">
               <a href="/plans" className="py-4 text-center rounded-md custom-bg-green custom-text-darkblue font-medium w-full shadow">View Plans</a>
               <a href="/menu" className="py-4 text-center rounded-md custom-text-darkblue bg-white font-medium w-full shadow">View Menu</a>
             </div>
