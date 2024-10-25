@@ -14,7 +14,7 @@ const ServicesPage = () => {
             </div>
             <h2 className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg">We have an ever-growing list of services and features to offer
               you with affordable pricing options that work for you.</h2>
-            <p>*This is more text to explain the below content.</p>
+            <p>*Click on any of the below services or features to learn more.</p>
           </div>
           <div className="w-2/5 flex flex-col gap-4">
             <img src={weedLabPhoto} alt="Cannabis lab" className="rounded-lg shadow border-2 border-white" />
@@ -22,8 +22,7 @@ const ServicesPage = () => {
               pride themselves on proper lab
               testing and quality assurance.</h2>
             <p className="text-white px-4">Our promise is to provide you with the highest
-              quality cannabis for the lowest costs available.</p>
-            <p className="text-white px-4">We guarantee high-quality products that
+              quality cannabis for the lowest costs available. We guarantee high-quality products that
               go through rigorous lab testing and quality
               assurance.</p>
             <div className="flex gap-2 mt-4 w-full px-4">
