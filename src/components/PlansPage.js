@@ -1,10 +1,12 @@
 import React from 'react';
+import plansHeroGfx from '../images/plans-hero-gfx.png';
 
 const PlansPage = () => {
   return (
     <div className="container mx-auto py-4 flex flex-col gap-8 px-4">
       <main className="flex flex-col gap-8">
-        <section className="flex justify-between items-center bg-white rounded-lg shadow">
+        <section className="flex justify-between items-center bg-white rounded-lg shadow relative overflow-hidden">
+          <img src={plansHeroGfx} alt="Banner graphic" className="absolute -right-12 -top-28 w-1/2" style={{ top: '-7.5rem'}} />
           <div className="p-20 w-full flex flex-col gap-4 justify-center relative">
             <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl">Plans & Pricing</h1>
             <p className="font-semibold 2xl:text-lg xl:text-base custom-text-darkblue">Finding affordable cannabis products should not be hell and back for you.</p>
