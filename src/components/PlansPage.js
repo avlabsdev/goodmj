@@ -11,14 +11,17 @@ const PlansPage = () => {
           </div>
         </section>
         <section className="flex justify-between items-center gap-8">
-          <div className="bg-white rounded-lg w-1/3 p-8">
-            Plan 1
+          <div className="bg-white rounded-lg w-1/3 p-8 flex flex-col gap-4">
+            <h2>Plan 1</h2>
+            <a href="#/" className="py-4 text-center rounded-md custom-bg-green text-white font-medium w-full shadow">Select Plan</a>
           </div>
-          <div className="bg-white rounded-lg w-1/3 p-8">
-            Plan 2
+          <div className="bg-white rounded-lg w-1/3 p-8 flex flex-col gap-4">
+            <h2>Plan 2</h2>
+            <a href="#/" className="py-4 text-center rounded-md custom-bg-green text-white font-medium w-full shadow">Select Plan</a>
           </div>
-          <div className="bg-white rounded-lg w-1/3 p-8">
-            Plan 3
+          <div className="bg-white rounded-lg w-1/3 p-8 flex flex-col gap-4">
+            <h2>Plan 3</h2>
+            <a href="#/" className="py-4 text-center rounded-md custom-bg-green text-white font-medium w-full shadow">Select Plan</a>
           </div>
         </section>
         <p className="text-white text-center">*Don't see a plan that works for you? We can help you create a custom plan just for you. <a href="#/" className="underline hover:no-underline">Let us know</a>!</p>
