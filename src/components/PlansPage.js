@@ -1,6 +1,4 @@
 import React from 'react';
-import weedJarPhoto from '../images/weed-jar.jpg';
-import givingHandPhoto from '../images/giving-cannabis.svg';
 
 const PlansPage = () => {
   return (
