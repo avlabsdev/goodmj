@@ -4,7 +4,7 @@ import weedLabPhoto from '../images/weed-lab.jpg';
 
 const ServicesPage = () => {
   return (
-    <div className="container mx-auto py-4 flex flex-col gap-8">
+    <div className="container mx-auto py-4 flex flex-col gap-8 px-4">
       <main>
         <section className="flex justify-between gap-8">
           <div className="p-20 w-3/5 flex flex-col gap-4 relative bg-white rounded-lg shadow">
@@ -15,6 +15,17 @@ const ServicesPage = () => {
             <h2 className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg">We have an ever-growing list of services and features to offer
               you with affordable pricing options that work for you.</h2>
             <p>*Click on any of the below services or features to learn more.</p>
+            <div className="grid grid-cols-3">
+              <div className="w-full">
+                Icon
+              </div>
+              <div className="text-left">
+                <p>Copy goes here.</p>
+              </div>
+              <div className="w-full">
+                Info Icon
+              </div>
+            </div>
           </div>
           <div className="w-2/5 flex flex-col gap-4">
             <img src={weedLabPhoto} alt="Cannabis lab" className="rounded-lg shadow border-2 border-white" />
