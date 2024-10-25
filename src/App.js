@@ -11,6 +11,10 @@ import "@fontsource/poppins/800.css";
 import "@fontsource/poppins/900.css";
 import ServicesPage from './components/ServicesPage';
 import Footer from './components/Footer';
+import PlansPage from './components/PlansPage';
+import MenuPage from './components/MenuPage';
+import StrainfinderPage from './components/StrainfinderPage';
+import HelpPage from './components/HelpPage';
 
 function App() {
   return (
@@ -19,6 +23,10 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/services" element={<ServicesPage />} />
+        <Route path="/plans" element={<PlansPage />} />
+        <Route path="/menu" element={<MenuPage />} />
+        <Route path="/strainfinder" element={<StrainfinderPage />} />
+        <Route path="/help" element={<HelpPage />} />
       </Routes>
       <Footer />
     </div>

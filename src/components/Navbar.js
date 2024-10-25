@@ -17,10 +17,10 @@ const Navbar = () => {
         </div>
         <nav className="flex gap-6 text-md font-semibold custom-text-darkblue">
           <a className="p-2" href="/services">Services</a>
-          <a className="p-2" href="#/">Plans</a>
-          <a className="p-2" href="#/">Menu</a>
-          <a className="p-2" href="#/">Strainfinder&trade;</a>
-          <a className="p-2" href="#/">Help</a>
+          <a className="p-2" href="/plans">Plans</a>
+          <a className="p-2" href="/menu">Menu</a>
+          <a className="p-2" href="/strainfinder">Strainfinder&trade;</a>
+          <a className="p-2" href="/help">Help</a>
         </nav>
       </header>
     </div>
