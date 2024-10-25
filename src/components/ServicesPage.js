@@ -1,6 +1,8 @@
 import React from 'react';
 import certIcon from '../images/certificate.svg';
 import weedLabPhoto from '../images/weed-lab.jpg';
+import infoIcon from '../images/circle-info-solid.svg';
+import drugsIcon from '../images/drugs.svg';
 
 const ServicesPage = () => {
   return (
@@ -14,20 +16,64 @@ const ServicesPage = () => {
             </div>
             <h2 className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg">We have an ever-growing list of services and features to offer
               you with affordable pricing options that work for you.</h2>
-            <p>*Click on any of the below services or features to learn more.</p>
-            <div className="grid grid-cols-3">
-              <div className="w-full">
-                Icon
+            <p className="mt-4">*Click on any of the below services or features to learn more.</p>
+            <a href="#/" className="flex w-full items-center text-sm font-medium">
+              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+                <img src={drugsIcon} alt="Cannabis bottle icon" className="w-10" />
               </div>
-              <div className="text-left">
-                <p>Copy goes here.</p>
+              <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
+                <p>Obtain a medical cannabis card for extra benefits and discounted pricing.</p>
               </div>
-              <div className="w-full">
-                Info Icon
+              <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
+                <img src={infoIcon} alt="Info icon" className="w-8" />
               </div>
-            </div>
+            </a>
+            <a href="#/" className="flex w-full items-center text-sm font-medium">
+              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+                <img src={drugsIcon} alt="Cannabis bottle icon" className="w-10" />
+              </div>
+              <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
+                <p>Obtain a medical cannabis card for extra benefits and discounted pricing.</p>
+              </div>
+              <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
+                <img src={infoIcon} alt="Info icon" className="w-8" />
+              </div>
+            </a>
+            <a href="#/" className="flex w-full items-center text-sm font-medium">
+              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+                <img src={drugsIcon} alt="Cannabis bottle icon" className="w-10" />
+              </div>
+              <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
+                <p>Obtain a medical cannabis card for extra benefits and discounted pricing.</p>
+              </div>
+              <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
+                <img src={infoIcon} alt="Info icon" className="w-8" />
+              </div>
+            </a>
+            <a href="#/" className="flex w-full items-center text-sm font-medium">
+              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+                <img src={drugsIcon} alt="Cannabis bottle icon" className="w-10" />
+              </div>
+              <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
+                <p>Obtain a medical cannabis card for extra benefits and discounted pricing.</p>
+              </div>
+              <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
+                <img src={infoIcon} alt="Info icon" className="w-8" />
+              </div>
+            </a>
+            <a href="#/" className="flex w-full items-center text-sm font-medium">
+              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+                <img src={drugsIcon} alt="Cannabis bottle icon" className="w-10" />
+              </div>
+              <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
+                <p>Obtain a medical cannabis card for extra benefits and discounted pricing.</p>
+              </div>
+              <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
+                <img src={infoIcon} alt="Info icon" className="w-8" />
+              </div>
+            </a>
           </div>
-          <div className="w-2/5 flex flex-col gap-4">
+          <div className="w-2/5 flex flex-col gap-6">
             <img src={weedLabPhoto} alt="Cannabis lab" className="rounded-lg shadow border-2 border-white" />
             <h2 className="custom-text-green font-bold 2xl:text-xl xl:text-xl px-4">We only work with companies that
               pride themselves on proper lab

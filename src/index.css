@@ -22,3 +22,19 @@ body {
 .custom-bg-darkblue {
 	background-color: #0c214a;
 }
+
+.custom-text-lightblue {
+	color: #d2e0ed;
+}
+
+.custom-bg-lightblue {
+	background-color: #d2e0ed;
+}
+
+.custom-text-yellow {
+	color: #fedba6;
+}
+
+.custom-bg-yellow {
+	background-color: #fedba6;
+}
