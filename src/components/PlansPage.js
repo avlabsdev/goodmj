@@ -22,11 +22,11 @@ const PlansPage = () => {
             </div>
             <div className="bg-white rounded-lg rounded-tl-none rounded-tr-none p-8 flex flex-col gap-4">
               <ul className="flex flex-col gap-4 mb-4">
-                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" />One ounce of flower/month.</li>
-                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" />Free delivery, if needed.</li>
-                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" />Free eighth of your choice in the low to mid
+                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" style={{ marginTop: '2px' }} />One ounce of flower/month.</li>
+                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" style={{ marginTop: '2px' }} />Free delivery, if needed.</li>
+                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" style={{ marginTop: '2px' }} />Free eighth of your choice in the low to mid
                   range flower category. (restrictions apply)</li>
-                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" />Exclusive fresh weekly discounts and sales
+                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" style={{ marginTop: '2px' }} />Exclusive fresh weekly discounts and sales
                   up to 75% off items.</li>
               </ul>
               <a href="#/" className="py-4 text-center rounded-md custom-bg-green text-white font-medium w-full shadow">Select Plan</a>
@@ -39,11 +39,11 @@ const PlansPage = () => {
             </div>
             <div className="bg-white rounded-lg rounded-tl-none rounded-tr-none p-8 flex flex-col gap-4">
               <ul className="flex flex-col gap-4 mb-4">
-                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" />One ounce of flower/month.</li>
-                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" />Free delivery, if needed.</li>
-                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" />Free eighth of your choice in the low to mid
+                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" style={{ marginTop: '2px' }} />One ounce of flower/month.</li>
+                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" style={{ marginTop: '2px' }} />Free delivery, if needed.</li>
+                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" style={{ marginTop: '2px' }} />Free eighth of your choice in the low to mid
                   range flower category. (restrictions apply)</li>
-                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" />Exclusive fresh weekly discounts and sales
+                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" style={{ marginTop: '2px' }} />Exclusive fresh weekly discounts and sales
                   up to 75% off items.</li>
               </ul>
               <a href="#/" className="py-4 text-center rounded-md custom-bg-green text-white font-medium w-full shadow">Select Plan</a>
@@ -56,11 +56,11 @@ const PlansPage = () => {
             </div>
             <div className="bg-white rounded-lg rounded-tl-none rounded-tr-none p-8 flex flex-col gap-4">
               <ul className="flex flex-col gap-4 mb-4">
-                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" />One ounce of flower/month.</li>
-                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" />Free delivery, if needed.</li>
-                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" />Free eighth of your choice in the low to mid
+                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" style={{ marginTop: '2px' }} />One ounce of flower/month.</li>
+                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" style={{ marginTop: '2px' }} />Free delivery, if needed.</li>
+                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" style={{ marginTop: '2px' }} />Free eighth of your choice in the low to mid
                   range flower category. (restrictions apply)</li>
-                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" />Exclusive fresh weekly discounts and sales
+                <li className="flex items-start gap-2"><img src={checkIcon} alt="Check icon" className="w-4" style={{ marginTop: '2px' }} />Exclusive fresh weekly discounts and sales
                   up to 75% off items.</li>
               </ul>
               <a href="#/" className="py-4 text-center rounded-md custom-bg-green text-white font-medium w-full shadow">Select Plan</a>
