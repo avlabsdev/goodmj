@@ -2,6 +2,8 @@ import React from 'react';
 import plansHeroGfx from '../images/plans-hero-gfx.png';
 import checkIcon from '../images/check-icon.svg';
 import groupIcon from '../images/people-line-solid.svg';
+import ribbonIcon from '../images/award-sharp-solid.svg';
+import creditCardIcon from '../images/credit-card.svg';
 
 const PlansPage = () => {
   return (
@@ -16,7 +18,7 @@ const PlansPage = () => {
         </section>
         <section className="flex justify-between items-start gap-8">
           <div className="w-1/3">
-            <h2 className="w-full custom-bg-darkblue text-white p-6 text-center rounded-tl-lg rounded-tr-lg border-2 border-white font-medium flex items-center justify-center gap-2 border-b-0 text-lg"><img src={groupIcon} alt="Community plan icon" className="w-8" />Community Plan</h2>
+            <h2 className="w-full custom-bg-darkblue text-white p-6 text-center rounded-tl-lg rounded-tr-lg border-2 border-white font-medium flex items-center justify-center gap-3 border-b-0 text-lg"><img src={groupIcon} alt="Community plan icon" className="w-8" />Community Plan</h2>
             <div className="p-2 custom-bg-yellow text-center font-medium uppercase text-sm border-l-2 border-r-2 border-white">
               $100 Per Month
             </div>
@@ -33,7 +35,7 @@ const PlansPage = () => {
             </div>
           </div>
           <div className="w-1/3">
-            <h2 className="w-full custom-bg-darkblue text-white p-6 text-center rounded-tl-lg rounded-tr-lg border-2 border-white font-medium flex items-center justify-center gap-2 border-b-0 text-lg"><img src={groupIcon} alt="Community plan icon" className="w-8" />Top Tier Plan</h2>
+            <h2 className="w-full custom-bg-darkblue text-white p-6 text-center rounded-tl-lg rounded-tr-lg border-2 border-white font-medium flex items-center justify-center gap-3 border-b-0 text-lg"><img src={ribbonIcon} alt="Community plan icon" className="w-5" />Top Tier Plan</h2>
             <div className="p-2 custom-bg-yellow text-center font-medium uppercase text-sm border-l-2 border-r-2 border-white">
               $200 Per Month
             </div>
@@ -50,7 +52,7 @@ const PlansPage = () => {
             </div>
           </div>
           <div className="w-1/3">
-            <h2 className="w-full custom-bg-darkblue text-white p-6 text-center rounded-tl-lg rounded-tr-lg border-2 border-white font-medium flex items-center justify-center gap-2 border-b-0 text-lg"><img src={groupIcon} alt="Community plan icon" className="w-8" />Pay-As-You-Go Perk Plan</h2>
+            <h2 className="w-full custom-bg-darkblue text-white p-6 text-center rounded-tl-lg rounded-tr-lg border-2 border-white font-medium flex items-center justify-center gap-3 border-b-0 text-lg"><img src={creditCardIcon} alt="Community plan icon" className="w-6" />Pay-As-You-Go Perk Plan</h2>
             <div className="p-2 custom-bg-yellow text-center font-medium uppercase text-sm border-l-2 border-r-2 border-white">
               $20 Per Month
             </div>
