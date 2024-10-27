@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar, faSparkles, faMagnifyingGlass } from '@awesome.me/kit-bc1b6271da/icons/classic/solid'
 
 import menuSearchIcon from '../images/research.svg';
+import chalkboardImage from '../images/chalkboard.png';
 
 const MenuPage = () => {
   return (
@@ -11,11 +12,12 @@ const MenuPage = () => {
       <main className="flex flex-col gap-8 w-4/6">
         <section className="flex flex-col bg-white rounded-lg shadow">
           <div className="p-20 pb-0 flex flex-col gap-4 justify-center relative">
+            <img src={chalkboardImage} alt="Chalkboard sign" className="w-1/5 absolute top-5 right-10 z-0" />
             <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl flex items-center gap-4"><img src={menuSearchIcon} alt="Cannabis search icon" className="w-14" />Menu Search</h1>
             <p className="font-semibold 2xl:text-lg xl:text-base custom-text-darkblue">Find menus from dispensaries all around you in an instant.</p>
           </div>
           <div className="p-8 px-20 pb-20">
-            <form className="flex w-full items-center text-base font-medium rounded-lg h-full">
+            <form className="flex w-full items-center text-base font-medium rounded-lg h-full relative z-10">
               <div className="w-fit custom-bg-yellow p-4 px-6 rounded-tl-lg rounded-bl-lg flex items-center h-full">
                 <FontAwesomeIcon icon={faMagnifyingGlass} className="text-lg custom-text-darkblue" />
               </div>
