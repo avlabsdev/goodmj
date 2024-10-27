@@ -1,25 +1,45 @@
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar, faSparkles, faMagnifyingGlass } from '@awesome.me/kit-bc1b6271da/icons/classic/solid'
+
 import menuSearchIcon from '../images/research.svg';
 
 const MenuPage = () => {
   return (
     <div className="container mx-auto py-4 flex gap-8 px-4">
       <main className="flex flex-col gap-8 w-4/6">
-        <section className="flex justify-between items-center bg-white rounded-lg shadow">
-          <div className="p-20 flex flex-col gap-4 justify-center relative">
+        <section className="flex flex-col bg-white rounded-lg shadow">
+          <div className="p-20 pb-0 flex flex-col gap-4 justify-center relative">
             <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl flex items-center gap-4"><img src={menuSearchIcon} alt="Cannabis search icon" className="w-14" />Menu Search</h1>
             <p className="font-semibold 2xl:text-lg xl:text-base custom-text-darkblue">Find menus from dispensaries all around you in an instant.</p>
           </div>
+          <div className="p-8 px-20 pb-20">
+            <form className="flex w-full items-center text-base font-medium rounded-lg h-full">
+              <div className="w-fit custom-bg-yellow p-4 px-6 rounded-tl-lg rounded-bl-lg flex items-center h-full">
+                <FontAwesomeIcon icon={faMagnifyingGlass} className="text-lg custom-text-darkblue" />
+              </div>
+              <div className="w-full h-full flex items-center">
+                <input type="text" placeholder="Search by name of a dispensary, address, or zip code" className="w-full h-full p-4 px-6 custom-bg-lightblue" required />
+              </div>
+              <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
+                <button className="text-white">Search</button>
+              </div>
+            </form>
+          </div>
         </section>
-        <section>
-          <div className="w-2/6">Discount & Deals</div>
+        <section className="bg-white rounded-lg p-8">
+          <div>
+            <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faStar} className="custom-text-green" />Discount & Deals</h2>
+          </div>
         </section>
-        <section>
-          <div className="w-2/6">Featured Products</div>
+        <section className="bg-white rounded-lg p-8">
+          <div>
+            <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faSparkles} className="custom-text-green" />Featured Products</h2>
+          </div>
         </section>
       </main>
-      <aside className="w-2/6">Maps Preview/Details</aside>
+      <aside className="w-2/6 bg-white rounded-lg">Maps Preview/Details</aside>
     </div>
   );
 }

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* .test {
+	@apply text-red-500;
+} */
+
 body {
 	background-color: #0c214a;
 	font-family: Poppins, sans-serif;
@@ -37,4 +41,8 @@ body {
 
 .custom-bg-yellow {
 	background-color: #fedba6;
+}
+
+input::placeholder {
+	@apply font-normal custom-text-darkblue;
 }
