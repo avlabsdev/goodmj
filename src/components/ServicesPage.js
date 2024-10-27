@@ -4,7 +4,6 @@ import { faCircleInfo } from '@awesome.me/kit-bc1b6271da/icons/classic/solid'
 
 import certIcon from '../images/certificate.svg';
 import weedLabPhoto from '../images/weed-lab.jpg';
-import infoIcon from '../images/circle-info-solid.svg';
 import drugsIcon from '../images/drugs.svg';
 import locationIcon from '../images/location.svg';
 import pillsIcon from '../images/pills.svg';

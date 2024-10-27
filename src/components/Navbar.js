@@ -1,7 +1,8 @@
 import React from 'react';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser, faFileSignature } from '@awesome.me/kit-bc1b6271da/icons/classic/solid'
 import logo from '../logo.svg';
-import userIcon from "../images/user-solid.svg";
-import signupIcon from "../images/file-signature-solid.svg";
 
 const Navbar = () => {
   return (
@@ -12,7 +13,7 @@ const Navbar = () => {
             <img src={logo} alt="Logo Icon" className="w-8 mr-2" /><span className="font-bold">Good</span>Mj
           </a>
           <div className="lg:flex pl-6 border-l-2 text-sm flex items-center gap-2 hidden">
-            <a href="#/" className="underline hover:no-underline flex items-center gap-2 font-medium"><img src={userIcon} alt="User icon" className="w-3" />Login</a> / <a href="#/" className="underline hover:no-underline flex items-center gap-2 font-medium"><img src={signupIcon} alt="User icon" className="w-4" />Signup</a>
+            <a href="#/" className="underline hover:no-underline flex items-center gap-2 font-medium"><FontAwesomeIcon icon={faUser} className="w-3" />Login</a> / <a href="#/" className="underline hover:no-underline flex items-center gap-2 font-medium"><FontAwesomeIcon icon={faFileSignature} className="w-4" />Signup</a>
           </div>
         </div>
         <nav className="lg:flex gap-6 text-md font-semibold custom-text-darkblue hidden">

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import plansHeroGfx from '../images/plans-hero-gfx.png';
 import checkIcon from '../images/check-icon.svg';
 import groupIcon from '../images/people-line-solid.svg';
