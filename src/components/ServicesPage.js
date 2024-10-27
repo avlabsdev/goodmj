@@ -24,7 +24,7 @@ const ServicesPage = () => {
               you with affordable pricing options that work for you.</p>
             <p className="mt-4">*Click on any of the below services or features to learn more.</p>
             <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
-              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center h-full">
                 <img src={drugsIcon} alt="Cannabis bottle icon" className="w-10" />
               </div>
               <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
@@ -35,7 +35,7 @@ const ServicesPage = () => {
               </div>
             </a>
             <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
-              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center h-full">
                 <img src={locationIcon} alt="Location icon" className="w-10" />
               </div>
               <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
@@ -46,7 +46,7 @@ const ServicesPage = () => {
               </div>
             </a>
             <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
-              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center h-full">
                 <img src={pillsIcon} alt="Medication icon" className="w-10" />
               </div>
               <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
@@ -57,7 +57,7 @@ const ServicesPage = () => {
               </div>
             </a>
             <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
-              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center h-full">
                 <img src={bagIcon} alt="Shopping bag icon" className="w-10" />
               </div>
               <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
@@ -68,7 +68,7 @@ const ServicesPage = () => {
               </div>
             </a>
             <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
-              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center h-full">
                 <img src={extractIcon} alt="Lab testing icon" className="w-10" />
               </div>
               <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
