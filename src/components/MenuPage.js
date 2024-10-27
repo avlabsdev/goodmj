@@ -29,17 +29,48 @@ const MenuPage = () => {
           </div>
         </section>
         <section className="bg-white rounded-lg p-8">
-          <div>
-            <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faStar} className="custom-text-green" />Discount & Deals</h2>
+          <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faStar} className="custom-text-green" />Discount & Deals</h2>
+          <div className="flex gap-8 mt-8">
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+              Card
+            </a>
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+              Card
+            </a>
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+              Card
+            </a>
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+              View All
+            </a>
           </div>
         </section>
         <section className="bg-white rounded-lg p-8">
-          <div>
             <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faSparkles} className="custom-text-green" />Featured Products</h2>
+            <div className="flex gap-8 mt-8">
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+              Card
+            </a>
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+              Card
+            </a>
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+              Card
+            </a>
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+              View All
+            </a>
           </div>
         </section>
       </main>
-      <aside className="w-2/6 bg-white rounded-lg">Maps Preview/Details</aside>
+      <aside className="w-2/6 bg-white rounded-lg h-min sticky top-8">
+        Maps Preview/Details
+        {/* Maps preview/Storefront thumbnails/images */}
+        {/* Dispensary name/title */}
+        {/* Business details and contact info */}
+        {/* Get Directions button */}
+        {/* View store menu button */}
+      </aside>
     </div>
   );
 }
