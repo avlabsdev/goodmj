@@ -42,7 +42,7 @@ const MenuPage = () => {
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
               Card
             </a>
-            <a href="#/" className="flex font-medium h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow custom-bg-darkblue items-center justify-center text-white">
+            <a href="#/" className="flex font-medium h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow custom-bg-green items-center justify-center text-white">
               View All
             </a>
           </div>
@@ -59,7 +59,7 @@ const MenuPage = () => {
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
               Card
             </a>
-            <a href="#/" className="flex font-medium h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow custom-bg-darkblue items-center justify-center text-white">
+            <a href="#/" className="flex font-medium h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow custom-bg-green items-center justify-center text-white">
               View All
             </a>
           </div>
