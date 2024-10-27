@@ -15,7 +15,7 @@ const ServicesPage = () => {
     <div className="container mx-auto py-4 flex flex-col gap-8 px-4">
       <main>
         <section className="flex justify-between gap-8">
-          <div className="p-20 w-3/5 flex flex-col gap-4 relative bg-white rounded-lg shadow">
+          <div className="p-20 w-4/6 flex flex-col gap-4 relative bg-white rounded-lg shadow">
             <div className="flex items-center gap-4">
               <img src={certIcon} alt="Certificate icon" className="w-14" />
               <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-3xl">Services & Features</h1>
@@ -23,7 +23,7 @@ const ServicesPage = () => {
             <p className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg">We have an ever-growing list of services and features to offer
               you with affordable pricing options that work for you.</p>
             <p className="mt-4">*Click on any of the below services or features to learn more.</p>
-            <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
+            <a href="#/" className="flex w-full items-center text-base font-medium rounded-lg">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center h-full">
                 <img src={drugsIcon} alt="Cannabis bottle icon" className="w-10" />
               </div>
@@ -34,7 +34,7 @@ const ServicesPage = () => {
                 <FontAwesomeIcon icon={faCircleInfo} className="text-white text-2xl" />
               </div>
             </a>
-            <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
+            <a href="#/" className="flex w-full items-center text-base font-medium rounded-lg">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center h-full">
                 <img src={locationIcon} alt="Location icon" className="w-10" />
               </div>
@@ -45,7 +45,7 @@ const ServicesPage = () => {
                 <FontAwesomeIcon icon={faCircleInfo} className="text-white text-2xl" />
               </div>
             </a>
-            <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
+            <a href="#/" className="flex w-full items-center text-base font-medium rounded-lg">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center h-full">
                 <img src={pillsIcon} alt="Medication icon" className="w-10" />
               </div>
@@ -56,7 +56,7 @@ const ServicesPage = () => {
                 <FontAwesomeIcon icon={faCircleInfo} className="text-white text-2xl" />
               </div>
             </a>
-            <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
+            <a href="#/" className="flex w-full items-center text-base font-medium rounded-lg">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center h-full">
                 <img src={bagIcon} alt="Shopping bag icon" className="w-10" />
               </div>
@@ -67,7 +67,7 @@ const ServicesPage = () => {
                 <FontAwesomeIcon icon={faCircleInfo} className="text-white text-2xl" />
               </div>
             </a>
-            <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
+            <a href="#/" className="flex w-full items-center text-base font-medium rounded-lg">
               <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center h-full">
                 <img src={extractIcon} alt="Lab testing icon" className="w-10" />
               </div>
@@ -79,7 +79,7 @@ const ServicesPage = () => {
               </div>
             </a>
           </div>
-          <div className="w-2/5 flex flex-col gap-6">
+          <div className="w-2/6 flex flex-col gap-6">
             <img src={weedLabPhoto} alt="Cannabis lab" className="rounded-lg shadow border-2 border-white" />
             <h2 className="custom-text-green font-bold 2xl:text-xl xl:text-xl px-4">We only work with companies that
               pride themselves on proper lab
