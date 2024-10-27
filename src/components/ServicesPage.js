@@ -1,6 +1,6 @@
 import React from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faHouse } from '@awesome.me/kit-bc1b6271da/icons/classic/solid'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleInfo } from '@awesome.me/kit-bc1b6271da/icons/classic/solid'
 
 import certIcon from '../images/certificate.svg';
 import weedLabPhoto from '../images/weed-lab.jpg';
@@ -14,7 +14,6 @@ import extractIcon from '../images/extract.svg';
 const ServicesPage = () => {
   return (
     <div className="container mx-auto py-4 flex flex-col gap-8 px-4">
-      {/* <FontAwesomeIcon icon={faHouse} className="text-red-500" /> */}
       <main>
         <section className="flex justify-between gap-8">
           <div className="p-20 w-3/5 flex flex-col gap-4 relative bg-white rounded-lg shadow">
@@ -33,7 +32,7 @@ const ServicesPage = () => {
                 <p>Obtain a medical cannabis card for extra benefits and discounted pricing.</p>
               </div>
               <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
-                <img src={infoIcon} alt="Info icon" className="w-8" />
+                <FontAwesomeIcon icon={faCircleInfo} className="text-white text-2xl" />
               </div>
             </a>
             <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
@@ -44,7 +43,7 @@ const ServicesPage = () => {
                 <p>We work with all dispensaries in the USA.</p>
               </div>
               <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
-                <img src={infoIcon} alt="Info icon" className="w-8" />
+                <FontAwesomeIcon icon={faCircleInfo} className="text-white text-2xl" />
               </div>
             </a>
             <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
@@ -55,7 +54,7 @@ const ServicesPage = () => {
                 <p>Get the proper dosages you need for easier medicine administration.</p>
               </div>
               <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
-                <img src={infoIcon} alt="Info icon" className="w-8" />
+                <FontAwesomeIcon icon={faCircleInfo} className="text-white text-2xl" />
               </div>
             </a>
             <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
@@ -66,7 +65,7 @@ const ServicesPage = () => {
                 <p>All the cannabis products you need at a price you can afford.</p>
               </div>
               <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
-                <img src={infoIcon} alt="Info icon" className="w-8" />
+                <FontAwesomeIcon icon={faCircleInfo} className="text-white text-2xl" />
               </div>
             </a>
             <a href="#/" className="flex w-full items-center text-sm font-medium rounded-lg">
@@ -77,7 +76,7 @@ const ServicesPage = () => {
                 <p>All products are rigorously lab tested for quality assurance.</p>
               </div>
               <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
-                <img src={infoIcon} alt="Info icon" className="w-8" />
+                <FontAwesomeIcon icon={faCircleInfo} className="text-white text-2xl" />
               </div>
             </a>
           </div>
