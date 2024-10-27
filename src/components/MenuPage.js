@@ -24,8 +24,8 @@ const MenuPage = () => {
               <div className="w-full h-full flex items-center">
                 <input type="text" placeholder="Search by name of a dispensary, address, or zip code" className="w-full h-full p-4 px-6 custom-bg-lightblue" required />
               </div>
-              <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
-                <button className="text-white">Search</button>
+              <div className="w-auto custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
+                <button type="submit" className="text-white p-4">Search</button>
               </div>
             </form>
           </div>
@@ -42,14 +42,14 @@ const MenuPage = () => {
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
               Card
             </a>
-            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+            <a href="#/" className="flex font-medium h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow custom-bg-darkblue items-center justify-center text-white">
               View All
             </a>
           </div>
         </section>
         <section className="bg-white rounded-lg p-8">
-            <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faSparkles} className="custom-text-green" />Featured Products</h2>
-            <div className="flex gap-8 mt-8">
+          <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faSparkles} className="custom-text-green" />Featured Products</h2>
+          <div className="flex gap-8 mt-8">
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
               Card
             </a>
@@ -59,7 +59,7 @@ const MenuPage = () => {
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
               Card
             </a>
-            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+            <a href="#/" className="flex font-medium h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow custom-bg-darkblue items-center justify-center text-white">
               View All
             </a>
           </div>
