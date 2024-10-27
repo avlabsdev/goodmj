@@ -1,6 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@awesome.me/kit-bc1b6271da/icons/classic/solid'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faHouse } from '@awesome.me/kit-bc1b6271da/icons/classic/solid'
 
 import certIcon from '../images/certificate.svg';
 import weedLabPhoto from '../images/weed-lab.jpg';
@@ -14,7 +14,7 @@ import extractIcon from '../images/extract.svg';
 const ServicesPage = () => {
   return (
     <div className="container mx-auto py-4 flex flex-col gap-8 px-4">
-      <FontAwesomeIcon icon={faHouse} className="text-red-500" />
+      {/* <FontAwesomeIcon icon={faHouse} className="text-red-500" /> */}
       <main>
         <section className="flex justify-between gap-8">
           <div className="p-20 w-3/5 flex flex-col gap-4 relative bg-white rounded-lg shadow">
