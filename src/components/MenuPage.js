@@ -18,7 +18,7 @@ const MenuPage = () => {
       <main className="flex flex-col gap-8 w-4/6">
         <section className="flex flex-col bg-white rounded-lg shadow">
           <div className="p-20 pb-0 flex flex-col gap-4 justify-center relative">
-            <img src={chalkboardImage} alt="Chalkboard sign" className="w-1/5 absolute top-16 right-8 z-0" />
+            <img src={chalkboardImage} alt="Chalkboard sign" className="w-1/4 absolute top-14 right-0 z-0" />
             <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl flex items-center gap-4"><img src={menuSearchIcon} alt="Cannabis search icon" className="w-14" />Menu Search</h1>
             <p className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg">Find menus from dispensaries all around you in an instant.</p>
             <p className="my-4 text-sm text-gray-600">*Search by dispensary name, address, or zip code.</p>
