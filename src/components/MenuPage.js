@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar, faSparkles, faMagnifyingGlass } from '@awesome.me/kit-bc1b6271da/icons/classic/solid'
+import { faStar, faRankingStar, faMagnifyingGlass } from '@awesome.me/kit-bc1b6271da/icons/classic/solid'
 
 import menuSearchIcon from '../images/research.svg';
 import chalkboardImage from '../images/chalkboard.png';
@@ -55,7 +55,7 @@ const MenuPage = () => {
           </div>
         </section>
         <section className="bg-white rounded-lg p-8">
-          <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faSparkles} className="custom-text-green" />Featured Products</h2>
+          <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faRankingStar} className="custom-text-green" />Top-Rated Products</h2>
           <p className="text-sm uppercase mt-4 text-gray-600">*Results based on your current location.</p>
           <div className="flex gap-8 mt-8">
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex justify-center items-center">
