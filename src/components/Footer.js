@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <div className="container mx-auto py-4 flex flex-col gap-8 mb-6 px-4">
       <footer className="flex justify-between items-center px-4">
-        <p className="text-white">&copy; Copyright 2024 <a href="#/" className="underline hover:no-underline">AV Web Design</a>. All rights reserved.</p>
-        <a href="#/"><FontAwesomeIcon icon={faGithub} className="text-xl text-white" /></a>
+        <p className="text-white">&copy; Copyright 2024 <a href="https://avweb.io" target="_blank" rel="noreferrer" className="underline hover:no-underline">AV Web Design</a>. All rights reserved.</p>
+        <a href="https://github.com/avwebio" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className="text-xl text-white" /></a>
       </footer>
     </div>
   );

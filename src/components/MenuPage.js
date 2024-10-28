@@ -37,7 +37,8 @@ const MenuPage = () => {
           </div>
         </section>
         <section className="bg-white rounded-lg p-8">
-          <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faStar} className="custom-text-green" />Discount & Deals</h2>
+          <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faStar} className="custom-text-green" />Discounts & Deals</h2>
+          <p className="text-sm uppercase mt-4 text-gray-600">*Results based on your current location.</p>
           <div className="flex gap-8 mt-8">
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
               <img src={cannabisOilsImage} alt="Cannabis oil" className="h-full w-full object-cover rounded-lg" />
@@ -55,6 +56,7 @@ const MenuPage = () => {
         </section>
         <section className="bg-white rounded-lg p-8">
           <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faSparkles} className="custom-text-green" />Featured Products</h2>
+          <p className="text-sm uppercase mt-4 text-gray-600">*Results based on your current location.</p>
           <div className="flex gap-8 mt-8">
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
               <img src={budsImage} alt="Cannabis buds" className="h-full w-full object-cover rounded-lg" />
