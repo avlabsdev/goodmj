@@ -11,6 +11,7 @@ import cannabisCartImage from '../images/cannabis-cart.jpg';
 import budsImage from '../images/cannabis-buds.jpg';
 import lifeOilsImage from '../images/canna-life-oils.jpg';
 import vapePensImage from '../images/canna-vape-pens.jpg';
+import storefrontImage from '../images/storefront.jpg';
 
 const MenuPage = () => {
   return (
@@ -79,8 +80,16 @@ const MenuPage = () => {
         </section>
       </main>
       <aside className="w-2/6 bg-white rounded-lg h-min sticky top-8">
-        Maps Preview/Details
         {/* Maps preview/Storefront thumbnails/images */}
+        <div>
+          <img src={storefrontImage} alt="Storefront" className="border-2 border-white rounded-lg rounded-br-none rounded-bl-none" />
+          <div className="py-5 px-20">
+            <h3 className="text-2xl font-medium text-center">Medical & Recreational Cannabis Dispensary</h3>
+          </div>
+        </div>
+        <div className="pl-10 pr-10 pb-10">
+          <p>Address:</p>
+        </div>
         {/* Dispensary name/title */}
         {/* Business details and contact info */}
         {/* Get Directions button */}
