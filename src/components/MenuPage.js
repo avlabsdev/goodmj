@@ -28,7 +28,7 @@ const MenuPage = () => {
                 <FontAwesomeIcon icon={faMagnifyingGlass} className="text-lg custom-text-darkblue" />
               </div>
               <div className="w-full h-full flex items-center">
-                <input type="text" placeholder="Search by name of a dispensary, address, or zip code" className="w-full h-full p-4 px-6 custom-bg-lightblue" required />
+                <input type="text" placeholder="Search by dispensary name, address, or zip code" className="w-full h-full p-4 px-6 custom-bg-lightblue" required />
               </div>
               <div className="w-auto custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
                 <button type="submit" className="text-white py-4 px-8">Search</button>
@@ -40,7 +40,7 @@ const MenuPage = () => {
           <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faStar} className="custom-text-green" />Discounts & Deals</h2>
           <p className="text-sm uppercase mt-4 text-gray-600">*Results based on your current location.</p>
           <div className="flex gap-8 mt-8">
-            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex justify-center items-center">
               <img src={cannabisOilsImage} alt="Cannabis oil" className="h-full w-full object-cover rounded-lg" />
             </a>
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
@@ -58,7 +58,7 @@ const MenuPage = () => {
           <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faSparkles} className="custom-text-green" />Featured Products</h2>
           <p className="text-sm uppercase mt-4 text-gray-600">*Results based on your current location.</p>
           <div className="flex gap-8 mt-8">
-            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex justify-center items-center">
               <img src={budsImage} alt="Cannabis buds" className="h-full w-full object-cover rounded-lg" />
             </a>
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
