@@ -18,7 +18,7 @@ const MenuPage = () => {
       <main className="flex flex-col gap-8 w-4/6">
         <section className="flex flex-col bg-white rounded-lg shadow">
           <div className="p-20 pb-0 flex flex-col gap-4 justify-center relative">
-            <img src={chalkboardImage} alt="Chalkboard sign" className="w-1/5 absolute top-10 right-5 z-0" />
+            <img src={chalkboardImage} alt="Chalkboard sign" className="w-1/4 absolute top-10 right-0 z-0" />
             <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl flex items-center gap-4"><img src={menuSearchIcon} alt="Cannabis search icon" className="w-14" />Menu Search</h1>
             <p className="font-semibold 2xl:text-lg xl:text-base custom-text-darkblue">Find menus from dispensaries all around you in an instant.</p>
           </div>
@@ -31,7 +31,7 @@ const MenuPage = () => {
                 <input type="text" placeholder="Search by name of a dispensary, address, or zip code" className="w-full h-full p-4 px-6 custom-bg-lightblue" required />
               </div>
               <div className="w-auto custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
-                <button type="submit" className="text-white p-4">Search</button>
+                <button type="submit" className="text-white py-4 px-8">Search</button>
               </div>
             </form>
           </div>
