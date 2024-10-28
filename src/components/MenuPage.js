@@ -5,6 +5,12 @@ import { faStar, faSparkles, faMagnifyingGlass } from '@awesome.me/kit-bc1b6271d
 
 import menuSearchIcon from '../images/research.svg';
 import chalkboardImage from '../images/chalkboard.png';
+import cannabisOilsImage from '../images/cannabis-oil.jpg';
+import cannabisEdiblesImage from '../images/cannabis-edibles.jpg';
+import cannabisCartImage from '../images/cannabis-cart.jpg';
+import budsImage from '../images/cannabis-buds.jpg';
+import lifeOilsImage from '../images/canna-life-oils.jpg';
+import vapePensImage from '../images/canna-vape-pens.jpg';
 
 const MenuPage = () => {
   return (
@@ -34,15 +40,15 @@ const MenuPage = () => {
           <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faStar} className="custom-text-green" />Discount & Deals</h2>
           <div className="flex gap-8 mt-8">
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
-              Card
+              <img src={cannabisOilsImage} alt="Cannabis oil" className="h-full w-full object-cover rounded-lg" />
             </a>
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
-              Card
+              <img src={cannabisEdiblesImage} alt="Cannabis edibles" className="h-full w-full object-cover rounded-lg" />
             </a>
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
-              Card
+              <img src={cannabisCartImage} alt="Cannabis vape cartridge" className="h-full w-full object-cover rounded-lg" />
             </a>
-            <a href="#/" className="flex font-medium h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow custom-bg-green items-center justify-center text-white">
+            <a href="#/" className="flex font-medium h-full rounded-lg w-1/4 aspect-square shadow custom-bg-green items-center justify-center text-white">
               View All
             </a>
           </div>
@@ -51,15 +57,15 @@ const MenuPage = () => {
           <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faSparkles} className="custom-text-green" />Featured Products</h2>
           <div className="flex gap-8 mt-8">
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
-              Card
+              <img src={budsImage} alt="Cannabis buds" className="h-full w-full object-cover rounded-lg" />
             </a>
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
-              Card
+              <img src={lifeOilsImage} alt="Cannabis oils" className="h-full w-full object-cover rounded-lg" />
             </a>
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
-              Card
+              <img src={vapePensImage} alt="Cannabis oils" className="h-full w-full object-cover rounded-lg" />
             </a>
-            <a href="#/" className="flex font-medium h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow custom-bg-green items-center justify-center text-white">
+            <a href="#/" className="flex font-medium h-full rounded-lg w-1/4 aspect-square shadow custom-bg-green items-center justify-center text-white">
               View All
             </a>
           </div>
