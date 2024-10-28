@@ -40,7 +40,7 @@ const MenuPage = () => {
         <section className="bg-white rounded-lg p-8">
           <div className="flex items-center justify-between">
             <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faStar} className="custom-text-green" />Discounts & Deals</h2>
-            <p className="text-sm uppercase text-gray-600">*Results based on your current location and search.</p>
+            <p className="text-sm text-gray-600">*Results based on your current location and search.</p>
           </div>
           <div className="flex gap-8 mt-8">
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex justify-center items-center">
@@ -60,7 +60,7 @@ const MenuPage = () => {
         <section className="bg-white rounded-lg p-8">
           <div className="flex items-center justify-between">
             <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4"><FontAwesomeIcon icon={faRankingStar} className="custom-text-green" />Top-Rated Products</h2>
-            <p className="text-sm uppercase text-gray-600">*Results based on your current location and search.</p>
+            <p className="text-sm text-gray-600">*Results based on your current location and search.</p>
           </div>
           <div className="flex gap-8 mt-8">
             <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex justify-center items-center">
