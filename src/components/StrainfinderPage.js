@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMagnifyingGlass } from '@awesome.me/kit-bc1b6271da/icons/classic/solid'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faMagnifyingGlass } from '@awesome.me/kit-bc1b6271da/icons/classic/solid'
 
 import microscopeIcon from '../images/microscope.svg';
 import strainfinderHeroImage from '../images/strainfinder-hero-comp.png';
