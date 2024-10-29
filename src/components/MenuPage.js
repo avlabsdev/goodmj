@@ -88,11 +88,11 @@ const MenuPage = () => {
           </div>
         </div>
         <div className="p-10 flex flex-col gap-4 custom-bg-lightblue border-l-2 border-r-2 border-white relative">
-          <p className="flex gap-4"><span className="font-medium custom-text-darkblue">Address:</span> 12121 Madison Ave, Clifton, OH 44107</p>
-          <p className="flex gap-4"><span className="font-medium custom-text-darkblue">Hours:</span>7:00 AM - 9:00 PM</p>
-          <p className="flex gap-4"><span className="font-medium custom-text-darkblue">Phone:</span>(123) 456-7890</p>
-          <p className="flex gap-4"><span className="font-medium custom-text-darkblue">Shop:</span><a href="#/" className="underline hover:no-underline">ordercannabis.com</a></p>
-          <img src={mapImage} alt="Map" className="absolute w-1/2 -right-8 -bottom-8 overflow-hidden" />
+          <p className="flex gap-4 z-10"><span className="font-medium custom-text-darkblue">Address:</span> 12121 Madison Ave, Clifton, OH 44107</p>
+          <p className="flex gap-4 z-10"><span className="font-medium custom-text-darkblue">Hours:</span>7:00 AM - 9:00 PM</p>
+          <p className="flex gap-4 z-10"><span className="font-medium custom-text-darkblue">Phone:</span>(123) 456-7890</p>
+          <p className="flex gap-4 z-10"><span className="font-medium custom-text-darkblue">Shop:</span><a href="#/" className="underline hover:no-underline">ordercannabis.com</a></p>
+          <img src={mapImage} alt="Map" className="absolute w-1/2 -right-8 -bottom-8 overflow-hidden z-0" />
         </div>
         <button className="custom-bg-darkblue text-white w-full p-4 py-6 border-l-2 border-r-2 border-white flex items-center justify-center gap-2 relative z-10">Get Directions<FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
         <button className="custom-bg-yellow custom-text-darkblue w-full p-4 py-8 rounded-br-lg rounded-bl-lg border-l-2 border-r-2 border-b-2 font-medium">View Store Menu</button>
