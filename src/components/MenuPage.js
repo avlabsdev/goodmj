@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPercent, faRankingStar, faMagnifyingGlass } from '@awesome.me/kit-bc1b6271da/icons/classic/solid'
+import { faPercent, faRankingStar, faMagnifyingGlass, faArrowUpRightFromSquare } from '@awesome.me/kit-bc1b6271da/icons/classic/solid'
 
 import menuSearchIcon from '../images/research.svg';
 import chalkboardImage from '../images/chalkboard.png';
@@ -80,18 +80,20 @@ const MenuPage = () => {
         </section>
       </main>
       <aside className="w-2/6 bg-white rounded-lg h-min sticky top-8">
-        {/* Maps preview/Storefront thumbnails/images */}
         <div>
           <img src={storefrontImage} alt="Storefront" className="border-2 border-white rounded-lg rounded-br-none rounded-bl-none" />
-          <div className="py-5 px-20">
-            <h3 className="text-2xl font-medium text-center">Medical & Recreational Cannabis Dispensary</h3>
+          <div className="py-5 px-2 bg-white border-l-2 border-r-2 border-white shadow">
+            <h3 className="text-3xl font-medium text-center custom-text-darkblue">Medical & Recreational Cannabis Dispensary</h3>
           </div>
         </div>
-        <div className="pl-10 pr-10 pb-10">
-          <p>Address:</p>
+        <div className="p-10 flex flex-col gap-4 custom-bg-lightblue border-l-2 border-r-2 border-white">
+          <p className="flex gap-4"><span className="font-medium custom-text-darkblue">Address:</span> 12121 Madison Ave, Clifton, OH 44107</p>
+          <p className="flex gap-4"><span className="font-medium custom-text-darkblue">Hours:</span>7:00 AM - 9:00 PM</p>
+          <p className="flex gap-4"><span className="font-medium custom-text-darkblue">Phone:</span>(123) 456-7890</p>
+          <p className="flex gap-4"><span className="font-medium custom-text-darkblue">Shop:</span><a href="#/" className="underline hover:no-underline">ordercannabis.com</a></p>
         </div>
-        {/* Dispensary name/title */}
-        {/* Business details and contact info */}
+        <button className="custom-bg-darkblue text-white w-full p-4 py-6 border-l-2 border-r-2 border-white flex items-center justify-center gap-2">Get Directions<FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
+        <button className="custom-bg-yellow custom-text-darkblue w-full p-4 py-8 rounded-br-lg rounded-bl-lg border-l-2 border-r-2 border-b-2 border-white font-medium">View Store Menu</button>
         {/* Get Directions button */}
         {/* View store menu button */}
       </aside>
