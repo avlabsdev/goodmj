@@ -45,16 +45,22 @@ const MenuPage = () => {
             <p className="text-sm text-gray-600">*Results based on your current location and search.</p>
           </div>
           <div className="flex gap-8 mt-8">
-            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex justify-center items-center">
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex">
+              <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">10% Off</span>
+              <span className="absolute bottom-0 flex items-center justify-center w-full custom-bg-green text-white py-2 rounded-br-lg rounded-bl-lg">Oils</span>
               <img src={cannabisOilsImage} alt="Cannabis oil" className="h-full w-full object-cover rounded-lg" />
             </a>
-            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex">
+              <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">20% Off</span>
+              <span className="absolute bottom-0 flex items-center justify-center w-full custom-bg-green text-white py-2 rounded-br-lg rounded-bl-lg">Edibles</span>
               <img src={cannabisEdiblesImage} alt="Cannabis edibles" className="h-full w-full object-cover rounded-lg" />
             </a>
-            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex">
+              <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">30% Off</span>
+              <span className="absolute bottom-0 flex items-center justify-center w-full custom-bg-green text-white py-2 rounded-br-lg rounded-bl-lg">Vape Cartridges</span>
               <img src={cannabisCartImage} alt="Cannabis vape cartridge" className="h-full w-full object-cover rounded-lg" />
             </a>
-            <a href="#/" className="flex font-medium h-full rounded-lg w-1/4 aspect-square shadow custom-bg-green items-center justify-center text-white">
+            <a href="#/" className="flex font-medium h-full rounded-lg w-1/4 aspect-square shadow custom-bg-darkblue items-center justify-center text-white">
               View All
             </a>
           </div>
@@ -65,16 +71,22 @@ const MenuPage = () => {
             <p className="text-sm text-gray-600">*Results based on your current location and search.</p>
           </div>
           <div className="flex gap-8 mt-8">
-            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex justify-center items-center">
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex">
+              <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">10% Off</span>
+              <span className="absolute bottom-0 flex items-center justify-center w-full custom-bg-green text-white py-2 rounded-br-lg rounded-bl-lg">Flower</span>
               <img src={budsImage} alt="Cannabis buds" className="h-full w-full object-cover rounded-lg" />
             </a>
-            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex">
+              <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">20% Off</span>
+              <span className="absolute bottom-0 flex items-center justify-center w-full custom-bg-green text-white py-2 rounded-br-lg rounded-bl-lg">Oils</span>
               <img src={lifeOilsImage} alt="Cannabis oils" className="h-full w-full object-cover rounded-lg" />
             </a>
-            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow">
+            <a href="#/" className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex">
+              <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">30% Off</span>
+              <span className="absolute bottom-0 flex items-center justify-center w-full custom-bg-green text-white py-2 rounded-br-lg rounded-bl-lg">Disposable Vapes</span>
               <img src={vapePensImage} alt="Cannabis oils" className="h-full w-full object-cover rounded-lg" />
             </a>
-            <a href="#/" className="flex font-medium h-full rounded-lg w-1/4 aspect-square shadow custom-bg-green items-center justify-center text-white">
+            <a href="#/" className="flex font-medium h-full rounded-lg w-1/4 aspect-square shadow custom-bg-darkblue items-center justify-center text-white">
               View All
             </a>
           </div>
