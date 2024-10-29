@@ -43,6 +43,10 @@ body {
 	background-color: #fedba6;
 }
 
+.custom-border-yellow {
+	border-color: #fedba6;
+}
+
 input::placeholder {
 	@apply font-normal custom-text-darkblue;
 }
