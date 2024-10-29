@@ -15,7 +15,7 @@ const StrainfinderPage = () => {
             <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl flex items-center gap-4"><img src={microscopeIcon} alt="Microscope icon" className="w-14" />Strainfinder&trade;</h1>
             <p className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg">Search any cannabis strain or product to learn more.</p>
             <p className="my-4 text-sm text-gray-600">*Search by strain name, type, effects, etc.</p>
-            <img src={strainfinderHeroImage} alt="3D illustration" className="w-1/3 absolute right-0 top-4" />
+            <img src={strainfinderHeroImage} alt="3D illustration" className="w-1/3 absolute right-0 -top-0" />
           </div>
         </section>
       </main>
