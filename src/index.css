@@ -47,6 +47,6 @@ body {
 	border-color: #fedba6;
 }
 
-input::placeholder {
-	@apply font-normal custom-text-darkblue;
+input::placeholder, textarea::placeholder {
+	@apply font-normal custom-text-darkblue opacity-50;
 }
