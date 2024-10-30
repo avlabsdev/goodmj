@@ -15,7 +15,7 @@ const StrainfinderPage = () => {
         <div className="p-20 w-full flex flex-col gap-4 justify-center relative">
           <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl flex items-center gap-4"><img src={microscopeIcon} alt="Microscope icon" className="w-14" />Strainfinder&trade;</h1>
           <p className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg">Search any cannabis strain or product to learn more.</p>
-          <p className="my-4 text-sm text-gray-600">*Search by strain name, type, effects, etc.</p>
+          <p className="mt-4 text-sm text-gray-600">*Search by strain name, type, effects, etc.</p>
           <form className="flex w-4/6 text-base font-medium rounded-lg relative z-10 h-full items-stretch">
             <div className="w-fit custom-bg-yellow p-4 px-6 rounded-tl-lg rounded-bl-lg flex items-center">
               <FontAwesomeIcon icon={faMagnifyingGlass} className="text-lg custom-text-darkblue" />

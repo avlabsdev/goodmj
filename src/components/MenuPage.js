@@ -108,8 +108,6 @@ const MenuPage = () => {
         </div>
         <button className="custom-bg-darkblue text-white w-full p-4 py-6 border-l-2 border-r-2 border-white flex items-center justify-center gap-2 relative z-10">Get Directions<FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
         <button className="custom-bg-yellow custom-text-darkblue w-full p-4 py-8 rounded-br-lg rounded-bl-lg border-l-2 border-r-2 border-b-2 font-medium">View Store Menu</button>
-        {/* Get Directions button */}
-        {/* View store menu button */}
       </aside>
     </div>
   );
