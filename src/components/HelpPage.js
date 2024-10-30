@@ -32,7 +32,7 @@ const HelpPage = () => {
           </form>
         </div>
       </section>
-      <section className="flex w-1/2 flex-col sticky top-8 h-min">
+      <section className="flex w-1/2 flex-col sticky top-8 h-min gap-8">
         <div className="bg-white rounded-lg shadow border-2 border-white">
           <img src={operatorsImage} alt="Tech support operators" className="object-cover w-full h-auto rounded-tr-lg rounded-tl-lg" />
           <div className="flex w-full sm:flex-row flex-col">
@@ -41,7 +41,7 @@ const HelpPage = () => {
           </div>
         </div>
         <div className="p-10">
-          <p className="text-white">This is some explaination text.</p>
+          <p className="text-white">This is some explaination text. This will be changed and updated later.</p>
         </div>
       </section>
     </div>
