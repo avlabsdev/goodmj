@@ -32,11 +32,16 @@ const HelpPage = () => {
           </form>
         </div>
       </section>
-      <section className="flex bg-white rounded-lg shadow w-1/2 flex-col border-2 border-white sticky top-8">
-        <img src={operatorsImage} alt="Tech support operators" className="object-cover w-full h-full rounded-tr-lg rounded-tl-lg" />
-        <div className="flex w-full sm:flex-row flex-col">
-          <a href="#/" className="py-4 text-center rounded-bl-lg custom-bg-darkblue text-white font-medium w-full shadow border-r-2 border-t-2 border-white flex items-center justify-center gap-2"><FontAwesomeIcon icon={faPhoneOffice} className="custom-text-green text-xl" />Start a Call</a>
-          <a href="/services" className="py-4 text-center bg-white custom-text-darkblue font-medium w-full shadow rounded-br-lg border-t-2 flex items-center justify-center gap-2"><FontAwesomeIcon icon={faHeadset} className="custom-text-green text-xl" />Start a Chat</a>
+      <section className="flex w-1/2 flex-col sticky top-8 h-min">
+        <div className="bg-white rounded-lg shadow border-2 border-white">
+          <img src={operatorsImage} alt="Tech support operators" className="object-cover w-full h-auto rounded-tr-lg rounded-tl-lg" />
+          <div className="flex w-full sm:flex-row flex-col">
+            <a href="#/" className="py-4 text-center rounded-bl-lg custom-bg-darkblue text-white font-medium w-full shadow border-r-2 border-t-2 border-white flex items-center justify-center gap-2"><FontAwesomeIcon icon={faPhoneOffice} className="custom-text-green text-xl" />Start a Call</a>
+            <a href="/services" className="py-4 text-center bg-white custom-text-darkblue font-medium w-full shadow rounded-br-lg border-t-2 flex items-center justify-center gap-2"><FontAwesomeIcon icon={faHeadset} className="custom-text-green text-xl" />Start a Chat</a>
+          </div>
+        </div>
+        <div className="p-10">
+          <p className="text-white">This is some explaination text.</p>
         </div>
       </section>
     </div>
