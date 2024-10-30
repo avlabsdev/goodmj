@@ -28,7 +28,7 @@ const HelpPage = () => {
               <label for="name">Message:</label>
               <textarea id="name" type="text" placeholder="Enter message here" className="w-full h-full p-4 px-6 custom-bg-lightblue rounded-lg" required></textarea>
             </div>
-            <a href="#/" className="py-4 text-center rounded-lg custom-bg-green text-white font-medium w-full shadow">Send Message</a>
+            <button type="submit" className="py-4 text-center rounded-lg custom-bg-green text-white font-medium w-full shadow">Send Message</button>
           </form>
         </div>
       </section>
