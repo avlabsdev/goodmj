@@ -42,7 +42,7 @@ const StrainfinderPage = () => {
           <img src={strainfinderPreview} alt="Strainfinder data preview" className="rounded-bl-lg rounded-br-lg w-full mx-auto" />
           <div className="flex gap-2 mt-4 w-full sm:flex-row flex-col">
             <a href="#/" className="py-4 text-center rounded-md custom-bg-green text-white font-medium w-full shadow">Locate Dispensaries</a>
-            <a href="#/" className="py-4 text-center rounded-md custom-bg-darkblue text-white font-medium w-full shadow">View Product Details</a>
+            <a href="#/" className="py-4 text-center rounded-md custom-bg-darkblue text-white font-medium w-full shadow">View Full Details</a>
           </div>
         </div>
       </section>
