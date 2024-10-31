@@ -18,9 +18,9 @@ const ServicesPage = () => {
           <div className="lg:p-20 p-10 lg:w-4/6 w-full flex flex-col gap-4 relative bg-white rounded-lg shadow">
             <div className="flex items-center gap-4">
               <img src={certIcon} alt="Certificate icon" className="w-14" />
-              <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-3xl">Services & Features</h1>
+              <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-3xl text-4xl">Services & Features</h1>
             </div>
-            <p className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg">We have an ever-growing list of services and features to offer
+            <p className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg text-md">We have an ever-growing list of services and features to offer
               you with affordable pricing options that work for you.</p>
             <p className="mt-4 text-sm text-gray-600">*Click on any of the below services or features to learn more.</p>
             <a href="#/" className="flex w-full lg:flex-row flex-col items-center text-base rounded-lg">
@@ -28,12 +28,12 @@ const ServicesPage = () => {
                 <img src={drugsIcon} alt="Cannabis bottle icon" className="lg:w-10 w-8" />
                 <h2 className="w-auto font-medium lg:hidden">Prescription Benefits</h2>
               </div>
-              <div className="w-full lg:py-4 lg:px-6 p-8 custom-bg-lightblue h-full flex items-center">
-                <p className="lg:font-medium lg:text-base text-sm">Obtain a medical cannabis card for extra benefits and discounted pricing.</p>
+              <div className="w-full p-4 custom-bg-lightblue h-full flex items-center">
+                <p className="lg:font-medium lg:text-base text-sm sm:text-base p-4">Obtain a medical cannabis card for extra benefits and discounted pricing.</p>
               </div>
-              <div className="lg:w-auto w-full py-4 px-5 custom-bg-darkblue lg:rounded-tr-lg lg:rounded-br-lg h-full flex justify-center items-center rounded-lg rounded-tl-none rounded-tr-none gap-2">
+              <div className="lg:w-auto w-full p-4 custom-bg-darkblue lg:rounded-tr-lg lg:rounded-br-lg h-full flex justify-center items-center rounded-lg rounded-tl-none rounded-tr-none gap-2">
                 <FontAwesomeIcon icon={faCircleInfo} className="text-white lg:text-2xl text-2xl" />
-                <p className="text-white text-sm">Click to find out more!</p>
+                <p className="text-white text-sm font-medium sm:text-base">Click to find out more!</p>
               </div>
             </a>
             <a href="#/" className="flex w-full items-center text-base font-medium rounded-lg">
@@ -43,7 +43,7 @@ const ServicesPage = () => {
               <div className="w-full p-4 px-6 custom-bg-lightblue h-full flex items-center">
                 <p>We work with all dispensaries in the USA.</p>
               </div>
-              <div className="w-auto py-4 px-5 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
+              <div className="w-auto p-4 custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
                 <FontAwesomeIcon icon={faCircleInfo} className="text-white lg:text-2xl" />
               </div>
             </a>
