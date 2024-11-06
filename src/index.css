@@ -8,7 +8,7 @@ body {
 }
 
 .App {
-  @apply flex flex-col gap-4;
+  @apply flex flex-col gap-2 p-2;
 }
 
 .custom-text-green {

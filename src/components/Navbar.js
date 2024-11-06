@@ -10,7 +10,7 @@ import logo from "../logo.svg";
 
 const Navbar = () => {
   return (
-    <div className="container mx-auto flex flex-col gap-8 mt-4">
+    <div className="container mx-auto flex flex-col gap-8">
       <header className="bg-white flex justify-between items-center py-4 px-6 rounded-lg shadow">
         <div className="flex items-center gap-4">
           <a
