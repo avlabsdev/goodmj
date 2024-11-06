@@ -19,9 +19,9 @@ const PlansPage = () => {
             src={plansHeroGfx}
             alt="Banner graphic"
             className="absolute -right-12 -top-28 w-1/2"
-            style={{ top: "-7.5rem" }}
+            style={{ top: "-6.5rem" }}
           />
-          <div className="p-20 w-full flex flex-col gap-4 justify-center relative">
+          <div className="p-20 py-24 w-full flex flex-col gap-4 justify-center relative">
             <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl flex items-center gap-4">
               <img src={scalesIcon} alt="Scales icon" className="w-14" />
               Plans & Pricing
