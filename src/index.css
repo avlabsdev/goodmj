@@ -2,51 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .test {
-	@apply text-red-500;
-} */
-
 body {
-	background-color: #0c214a;
-	font-family: Poppins, sans-serif;
+  background-color: #0c214a;
+  font-family: Poppins, sans-serif;
+}
+
+.App {
+  @apply flex flex-col gap-4;
 }
 
 .custom-text-green {
-	color: #52b68b;
+  color: #52b68b;
 }
 
 .custom-bg-green {
-	background-color: #52b68b;
+  background-color: #52b68b;
 }
 
 .custom-text-darkblue {
-	color: #0c214a;
+  color: #0c214a;
 }
 
 .custom-bg-darkblue {
-	background-color: #0c214a;
+  background-color: #0c214a;
 }
 
 .custom-text-lightblue {
-	color: #d2e0ed;
+  color: #d2e0ed;
 }
 
 .custom-bg-lightblue {
-	background-color: #d2e0ed;
+  background-color: #d2e0ed;
 }
 
 .custom-text-yellow {
-	color: #fedba6;
+  color: #fedba6;
 }
 
 .custom-bg-yellow {
-	background-color: #fedba6;
+  background-color: #fedba6;
 }
 
 .custom-border-yellow {
-	border-color: #fedba6;
+  border-color: #fedba6;
 }
 
-input::placeholder, textarea::placeholder {
-	@apply font-normal custom-text-darkblue opacity-50;
+input::placeholder,
+textarea::placeholder {
+  @apply font-normal custom-text-darkblue opacity-50;
 }
