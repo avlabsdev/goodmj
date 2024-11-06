@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhoneOffice,
   faHeadset,
+  faHeart,
 } from "@awesome.me/kit-bc1b6271da/icons/classic/solid";
 
 import healthIcon from "../images/health.svg";
@@ -95,9 +96,11 @@ const HelpPage = () => {
           </div>
         </div>
         <div className="p-10">
-          <p className="text-white">
-            This is some explaination text. This will be changed and updated
-            later.
+          <p className="text-white px-2">
+            We are always standing by via chat, email, or phone to help you with
+            any questions or concerns you may have. Our team is available 24/7
+            to assist you.{" "}
+            <FontAwesomeIcon icon={faHeart} className="text-red-500" />
           </p>
         </div>
       </section>
