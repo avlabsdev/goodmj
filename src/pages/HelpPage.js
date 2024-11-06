@@ -65,14 +65,14 @@ const HelpPage = () => {
           </form>
         </div>
       </section>
-      <section className="flex w-1/2 flex-col sticky top-8 h-min gap-8">
-        <div className="bg-white rounded-lg shadow border-2 border-white">
+      <section className="flex w-1/2 flex-col sticky top-8 gap-8">
+        <div className="bg-white rounded-lg shadow border-2 border-white h-full relative">
           <img
             src={operatorsImage}
             alt="Tech support operators"
-            className="object-cover w-full h-auto rounded-tr-lg rounded-tl-lg"
+            className="object-cover w-full h-full rounded-lg"
           />
-          <div className="flex w-full sm:flex-row flex-col">
+          <div className="flex w-full sm:flex-row flex-col absolute bottom-0">
             <a
               href="#/"
               className="py-4 text-center rounded-bl-lg custom-bg-darkblue text-white font-medium w-full shadow border-r-2 border-t-2 border-white flex items-center justify-center gap-2"
@@ -94,14 +94,6 @@ const HelpPage = () => {
               Start a Chat
             </a>
           </div>
-        </div>
-        <div className="p-10">
-          <p className="text-white px-2">
-            We are always standing by via chat, email, or phone to help you with
-            any questions or concerns you may have. Our team is available 24/7
-            to assist you.{" "}
-            <FontAwesomeIcon icon={faHeart} className="text-red-500" />
-          </p>
         </div>
       </section>
     </div>
