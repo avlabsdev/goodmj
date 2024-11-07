@@ -30,6 +30,9 @@ const MobileNav = () => {
               />{" "}
               Close Menu
             </button>
+            <a className="p-2" href="/">
+              Home
+            </a>
             <a className="p-2" href="/services">
               Services
             </a>

@@ -14,11 +14,11 @@ const ServicesPage = () => {
   return (
     <div className="container mx-auto flex flex-col gap-8">
       <main>
-        <section className="flex justify-between gap-2 md:flex-col">
-          <div className="p-20 w-4/6 flex flex-col gap-4 relative bg-white rounded-lg shadow md:w-full">
-            <div className="flex items-center gap-4">
+        <section className="flex justify-between gap-2 flex-col lg:flex-row">
+          <div className="p-8 sm:p-20 lg:w-4/6 flex flex-col gap-4 relative bg-white rounded-lg shadow md:w-full">
+            <div className="flex items-center gap-4 flex-col sm:flex-row text-center sm:text-left">
               <img src={certIcon} alt="Certificate icon" className="w-14" />
-              <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl lg:text-4xl md:text-5xl">
+              <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl lg:text-4xl md:text-5xl text-2xl">
                 Services & Features
               </h1>
             </div>
@@ -29,8 +29,11 @@ const ServicesPage = () => {
             <p className="mt-4 text-sm text-gray-600">
               *Click on any of the below services or features to learn more.
             </p>
-            <a href="#/" className="flex text-base font-medium rounded-lg">
-              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+            <a
+              href="#/"
+              className="flex-col sm:flex-row flex text-base font-medium rounded-lg"
+            >
+              <div className="rounded-tl-lg rounded-tr-lg custom-bg-yellow p-4 sm:rounded-tl-lg sm:rounded-bl-lg sm:rounded-tr-none flex items-center justify-center">
                 <img
                   src={drugsIcon}
                   alt="Cannabis bottle icon"
@@ -43,35 +46,35 @@ const ServicesPage = () => {
                   discounted pricing.
                 </p>
               </div>
-              <div className="w-auto py-4 px-5 custom-bg-darkblue rounded-tr-lg rounded-br-lg flex items-center">
+              <div className="py-4 px-5 custom-bg-darkblue sm:rounded-tr-lg sm:rounded-br-lg flex items-center justify-center rounded-bl-lg rounded-br-lg sm:rounded-bl-none">
                 <FontAwesomeIcon
                   icon={faCircleInfo}
-                  className="text-white text-2xl"
+                  className="text-white text-3xl"
                 />
               </div>
             </a>
             <a
               href="#/"
-              className="flex w-full items-stretch text-base font-medium rounded-lg"
+              className="flex-col sm:flex-row flex text-base font-medium rounded-lg"
             >
-              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+              <div className="rounded-tl-lg rounded-tr-lg custom-bg-yellow p-4 sm:rounded-tl-lg sm:rounded-bl-lg flex items-center justify-center sm:rounded-tr-none">
                 <img src={locationIcon} alt="Location icon" className="w-10" />
               </div>
               <div className="w-full p-4 px-6 custom-bg-lightblue flex items-center">
                 <p>We work with all dispensaries in the USA.</p>
               </div>
-              <div className="w-auto py-4 px-5 custom-bg-darkblue rounded-tr-lg rounded-br-lg flex items-center">
+              <div className="py-4 px-5 custom-bg-darkblue sm:rounded-tr-lg sm:rounded-br-lg flex items-center justify-center rounded-bl-lg rounded-br-lg sm:rounded-bl-none">
                 <FontAwesomeIcon
                   icon={faCircleInfo}
-                  className="text-white text-2xl"
+                  className="text-white text-3xl"
                 />
               </div>
             </a>
             <a
               href="#/"
-              className="flex w-full items-stretch text-base font-medium rounded-lg"
+              className="flex-col sm:flex-row flex text-base font-medium rounded-lg"
             >
-              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+              <div className="rounded-tl-lg rounded-tr-lg custom-bg-yellow p-4 sm:rounded-tl-lg sm:rounded-bl-lg flex items-center justify-center sm:rounded-tr-none">
                 <img src={pillsIcon} alt="Medication icon" className="w-10" />
               </div>
               <div className="w-full p-4 px-6 custom-bg-lightblue flex items-center">
@@ -80,18 +83,18 @@ const ServicesPage = () => {
                   administration.
                 </p>
               </div>
-              <div className="w-auto py-4 px-5 custom-bg-darkblue rounded-tr-lg rounded-br-lg flex items-center">
+              <div className="py-4 px-5 custom-bg-darkblue sm:rounded-tr-lg sm:rounded-br-lg flex items-center justify-center rounded-bl-lg rounded-br-lg sm:rounded-bl-none">
                 <FontAwesomeIcon
                   icon={faCircleInfo}
-                  className="text-white text-2xl"
+                  className="text-white text-3xl"
                 />
               </div>
             </a>
             <a
               href="#/"
-              className="flex w-full items-stretch text-base font-medium rounded-lg"
+              className="flex-col sm:flex-row flex text-base font-medium rounded-lg"
             >
-              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+              <div className="rounded-tl-lg rounded-tr-lg custom-bg-yellow p-4 sm:rounded-tl-lg sm:rounded-bl-lg flex items-center justify-center sm:rounded-tr-none">
                 <img src={bagIcon} alt="Shopping bag icon" className="w-10" />
               </div>
               <div className="w-full p-4 px-6 custom-bg-lightblue flex items-center">
@@ -99,18 +102,18 @@ const ServicesPage = () => {
                   All the cannabis products you need at a price you can afford.
                 </p>
               </div>
-              <div className="w-auto py-4 px-5 custom-bg-darkblue rounded-tr-lg rounded-br-lg flex items-center">
+              <div className="py-4 px-5 custom-bg-darkblue sm:rounded-tr-lg sm:rounded-br-lg flex items-center justify-center rounded-bl-lg rounded-br-lg sm:rounded-bl-none">
                 <FontAwesomeIcon
                   icon={faCircleInfo}
-                  className="text-white text-2xl"
+                  className="text-white text-3xl"
                 />
               </div>
             </a>
             <a
               href="#/"
-              className="flex w-full items-stretch text-base font-medium rounded-lg"
+              className="flex-col sm:flex-row flex text-base font-medium rounded-lg"
             >
-              <div className="w-fit custom-bg-yellow p-4 rounded-tl-lg rounded-bl-lg flex items-center">
+              <div className="rounded-tl-lg rounded-tr-lg custom-bg-yellow p-4 sm:rounded-tl-lg sm:rounded-bl-lg flex items-center justify-center sm:rounded-tr-none">
                 <img
                   src={extractIcon}
                   alt="Lab testing icon"
@@ -122,15 +125,15 @@ const ServicesPage = () => {
                   All products are rigorously lab tested for quality assurance.
                 </p>
               </div>
-              <div className="w-auto py-4 px-5 custom-bg-darkblue rounded-tr-lg rounded-br-lg flex items-center">
+              <div className="py-4 px-5 custom-bg-darkblue sm:rounded-tr-lg sm:rounded-br-lg flex items-center justify-center rounded-bl-lg rounded-br-lg sm:rounded-bl-none">
                 <FontAwesomeIcon
                   icon={faCircleInfo}
-                  className="text-white text-2xl"
+                  className="text-white text-3xl"
                 />
               </div>
             </a>
           </div>
-          <div className="w-2/6 flex flex-col gap-6 md:w-full">
+          <div className="lg:w-2/6 flex flex-col gap-6 md:w-full">
             <img
               src={weedLabPhoto}
               alt="Cannabis lab"
