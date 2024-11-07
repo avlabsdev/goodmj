@@ -18,22 +18,21 @@ const PlansPage = () => {
           <img
             src={plansHeroGfx}
             alt="Banner graphic"
-            className="absolute -right-12 -top-28 w-1/2"
-            style={{ top: "-6.5rem" }}
+            className="hidden sm:flex sm:absolute -right-12 w-1/2 xl:-top-8 2xl:-top-24"
           />
-          <div className="p-20 py-24 w-full flex flex-col gap-4 justify-center relative">
-            <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl flex items-center gap-4">
+          <div className="p-8 py-12 md:p-20 md:py-24 w-full flex flex-col gap-4 justify-center relative">
+            <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl md:text-4xl flex items-center gap-4 sm:text-3xl text-2xl">
               <img src={scalesIcon} alt="Scales icon" className="w-14" />
               Plans & Pricing
             </h1>
-            <p className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg">
+            <p className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg lg:w-1/2 2xl:w-full sm:w-2/3 md:pr-4 lg:pr-0 w-full">
               Finding affordable cannabis products should not be hell and back
               for you.
             </p>
           </div>
         </section>
-        <section className="flex justify-between items-start gap-2">
-          <div className="w-1/3">
+        <section className="flex justify-between items-start gap-2 flex-col lg:flex-row">
+          <div className="lg:w-1/3">
             <h2 className="w-full custom-bg-darkblue text-white p-6 text-center rounded-tl-lg rounded-tr-lg border-2 border-white font-medium flex items-center justify-center gap-3 border-b-0 text-lg">
               <FontAwesomeIcon
                 icon={faPeopleLine}
@@ -93,7 +92,7 @@ const PlansPage = () => {
               </a>
             </div>
           </div>
-          <div className="w-1/3">
+          <div className="lg:w-1/3">
             <h2 className="w-full custom-bg-darkblue text-white p-6 text-center rounded-tl-lg rounded-tr-lg border-2 border-white font-medium flex items-center justify-center gap-3 border-b-0 text-lg">
               <FontAwesomeIcon
                 icon={faAward}
@@ -153,7 +152,7 @@ const PlansPage = () => {
               </a>
             </div>
           </div>
-          <div className="w-1/3">
+          <div className="lg:w-1/3">
             <h2 className="w-full custom-bg-darkblue text-white p-6 text-center rounded-tl-lg rounded-tr-lg border-2 border-white font-medium flex items-center justify-center gap-3 border-b-0 text-lg">
               <FontAwesomeIcon
                 icon={faCreditCardFront}
