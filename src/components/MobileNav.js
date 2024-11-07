@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
   faXmark,
+  faUser,
+  faFileSignature,
 } from "@awesome.me/kit-bc1b6271da/icons/classic/solid";
 
 const MobileNav = () => {
@@ -30,6 +32,23 @@ const MobileNav = () => {
               />{" "}
               Close Menu
             </button>
+            <span className="flex gap-4 mt-8">
+              <a
+                href="#/"
+                className="underline hover:no-underline flex items-center gap-2 font-medium"
+              >
+                <FontAwesomeIcon icon={faUser} className="w-3" />
+                Login
+              </a>{" "}
+              /{" "}
+              <a
+                href="#/"
+                className="underline hover:no-underline flex items-center gap-2 font-medium"
+              >
+                <FontAwesomeIcon icon={faFileSignature} className="w-4" />
+                Signup
+              </a>
+            </span>
             <a className="p-2" href="/">
               Home
             </a>
