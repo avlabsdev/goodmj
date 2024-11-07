@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
         </div>
         <MobileNav />
-        <nav className="hidden lg:flex">
+        <nav className="hidden lg:flex gap-8">
           <a className="p-2 font-medium" href="/services">
             Services
           </a>
