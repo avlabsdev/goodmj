@@ -18,7 +18,7 @@ const ServicesPage = () => {
           <div className="p-8 sm:p-20 lg:w-4/6 flex flex-col gap-4 relative bg-white rounded-lg shadow md:w-full">
             <div className="flex items-center gap-4 flex-col sm:flex-row text-center sm:text-left">
               <img src={certIcon} alt="Certificate icon" className="w-14" />
-              <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl lg:text-4xl md:text-5xl text-2xl">
+              <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl lg:text-4xl md:text-5xl text-4xl">
                 Services & Features
               </h1>
             </div>
