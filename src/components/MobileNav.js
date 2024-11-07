@@ -32,7 +32,7 @@ const MobileNav = () => {
               />{" "}
               Close Menu
             </button>
-            <span className="flex gap-4 mt-8">
+            <span className="flex gap-4 mt-8 border-b border-gray-200 pb-8">
               <a
                 href="#/"
                 className="underline hover:no-underline flex items-center gap-2 font-medium"
