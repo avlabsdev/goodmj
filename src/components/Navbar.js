@@ -20,7 +20,7 @@ const Navbar = () => {
             <img src={logo} alt="Logo Icon" className="w-8 mr-2" />
             <span className="font-bold">Good</span>Mj
           </a>
-          <div className="flex pl-6 border-l-2 text-sm sm:flex items-center gap-2">
+          <div className="hidden pl-6 border-l-2 text-sm sm:flex items-center gap-2">
             <a
               href="#/"
               className="underline hover:no-underline flex items-center gap-2 font-medium"
