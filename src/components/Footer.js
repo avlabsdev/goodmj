@@ -19,10 +19,10 @@ const Footer = () => {
           . All rights reserved.
         </p>
         <a
-          href="https://github.com/avwebio"
+          href="https://avlabs.dev"
           target="_blank"
           rel="noreferrer"
-          aria-label="GitHub"
+          aria-label="AV Labs Website"
         >
           <FontAwesomeIcon icon={faGithub} className="text-2xl text-white" />
         </a>
