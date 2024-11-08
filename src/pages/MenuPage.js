@@ -71,7 +71,7 @@ const MenuPage = () => {
         </section>
         <section className="bg-white rounded-lg p-8">
           <div className="flex justify-between xl:flex-row lg:flex-col gap-2 items-start flex-col md:items-start md:flex-col xl:items-center">
-            <h2 className="text-3xl font-semibold custom-text-darkblue flex gap-4">
+            <h2 className="text-2xl sm:text-3xl font-semibold custom-text-darkblue flex gap-4 items-center">
               <FontAwesomeIcon icon={faPercent} className="custom-text-green" />
               Discounts & Deals
             </h2>
@@ -138,7 +138,7 @@ const MenuPage = () => {
         </section>
         <section className="bg-white rounded-lg p-8">
           <div className="flex flex-col justify-between items-start xl:flex-row lg:flex-col gap-2 md:items-start md:flex-col xl:items-center">
-            <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4">
+            <h2 className="text-2xl sm:text-3xl font-semibold custom-text-darkblue flex gap-4 items-center">
               <FontAwesomeIcon
                 icon={faRankingStar}
                 className="custom-text-green"
