@@ -130,7 +130,7 @@ const MenuPage = () => {
             </a>
             <a
               href="#/"
-              className="flex font-medium h-full rounded-lg aspect-square shadow custom-bg-darkblue items-center justify-center text-white"
+              className="flex font-medium h-16 w-full sm:h-full rounded-lg aspect-square shadow custom-bg-darkblue items-center justify-center text-white"
             >
               View All
             </a>
@@ -200,7 +200,7 @@ const MenuPage = () => {
             </a>
             <a
               href="#/"
-              className="flex font-medium h-full rounded-lg aspect-square shadow custom-bg-darkblue items-center justify-center text-white"
+              className="flex font-medium h-full rounded-lg aspect-square shadow custom-bg-darkblue items-center justify-center text-white h-16 w-full sm:h-full"
             >
               View All
             </a>
