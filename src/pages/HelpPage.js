@@ -11,10 +11,10 @@ import operatorsImage from "../images/operators.jpg";
 
 const HelpPage = () => {
   return (
-    <div className="container mx-auto flex gap-2">
-      <section className="flex justify-between items-center bg-white rounded-lg shadow w-1/2">
-        <div className="p-20 w-full flex flex-col gap-4 justify-center relative">
-          <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl flex items-center gap-4">
+    <div className="container mx-auto flex gap-2 flex-col lg:flex-row">
+      <section className="flex justify-between items-center bg-white rounded-lg shadow lg:w-1/2">
+        <div className="md:p-20 p-10 w-full flex flex-col gap-4 justify-center relative">
+          <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl lg:text-3xl md:text-5xl text-2xl flex items-center gap-4">
             <img src={healthIcon} alt="Heart icon" className="w-14" />
             Help & Support
           </h1>
@@ -64,17 +64,17 @@ const HelpPage = () => {
           </form>
         </div>
       </section>
-      <section className="flex w-1/2 flex-col sticky top-8 gap-8">
+      <section className="flex lg:w-1/2 flex-col sticky top-8 gap-8">
         <div className="bg-white rounded-lg shadow border-2 border-white h-full relative">
           <img
             src={operatorsImage}
             alt="Tech support operators"
-            className="object-cover w-full h-full rounded-lg"
+            className="object-cover h-96 w-full lg:h-full rounded-lg"
           />
-          <div className="flex w-full sm:flex-row flex-col absolute bottom-0">
+          <div className="flex w-full sm:flex-row flex-col absolute -top-0.5 lg:top-auto lg:bottom-0">
             <a
               href="#/"
-              className="py-4 text-center rounded-bl-lg custom-bg-darkblue text-white font-medium w-full shadow border-r-2 border-t-2 border-white flex items-center justify-center gap-2"
+              className="py-4 text-center lg:rounded-bl-lg rounded-tl-lg lg:rounded-tl-none custom-bg-darkblue text-white font-medium w-full shadow border-r-2 border-t-2 border-white flex items-center justify-center gap-2"
             >
               <FontAwesomeIcon
                 icon={faPhoneOffice}
@@ -84,7 +84,7 @@ const HelpPage = () => {
             </a>
             <a
               href="/services"
-              className="py-4 text-center bg-white custom-text-darkblue font-medium w-full shadow rounded-br-lg border-t-2 flex items-center justify-center gap-2"
+              className="py-4 text-center bg-white custom-text-darkblue font-medium w-full shadow lg:rounded-br-lg rounded-tr-lg lg:rounded-tr-none border-t-2 flex items-center justify-center gap-2"
             >
               <FontAwesomeIcon
                 icon={faHeadset}
