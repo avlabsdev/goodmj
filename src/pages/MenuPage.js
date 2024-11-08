@@ -28,9 +28,9 @@ const MenuPage = () => {
             <img
               src={chalkboardImage}
               alt="Chalkboard sign"
-              className="w-1/4 absolute top-12 right-0 z-0 sm:top-8 md:top-8 lg:top-20 xl:top-14"
+              className="w-1/4 absolute top-12 right-0 z-0 sm:top-8 md:top-8 lg:top-20 xl:top-8 2xl:top-0 hidden sm:block"
             />
-            <h1 className="custom-text-green text-4xl sm:text-5xl md:text-5xl 2xl:text-5xl font-bold xl:text-5xl lg:text-5xl flex items-center gap-4">
+            <h1 className="custom-text-green text-3xl sm:text-5xl md:text-5xl 2xl:text-5xl font-bold xl:text-5xl lg:text-5xl flex items-center gap-4">
               <img
                 src={menuSearchIcon}
                 alt="Cannabis search icon"
@@ -38,7 +38,7 @@ const MenuPage = () => {
               />
               Menu Search
             </h1>
-            <p className="custom-text-darkblue font-semibold pr-14 md:pr-24 2xl:text-xl xl:text-lg lg:pr-24 lg:text-lg sm:pr-24">
+            <p className="custom-text-darkblue font-semibold pr-0 md:pr-24 2xl:text-xl xl:text-lg lg:pr-24 lg:text-lg sm:pr-24">
               Find menus from dispensaries all around you in an instant.
             </p>
             <p className="my-4 text-sm text-gray-600">
@@ -46,8 +46,8 @@ const MenuPage = () => {
             </p>
           </div>
           <div className="p-10 pt-0 sm:p-20 sm:pt-0 sm:px-10 sm:pb-10">
-            <form className="flex sm:w-full xl:w-5/6 lg:w-full items-center text-base font-medium rounded-lg h-full relative z-10">
-              <div className="w-fit custom-bg-yellow p-4 px-6 rounded-tl-lg rounded-bl-lg flex items-center h-full">
+            <form className="flex flex-col sm:flex-row sm:w-full xl:w-5/6 lg:w-full items-center text-base font-medium rounded-lg h-full relative z-10">
+              <div className="hidden w-fit custom-bg-yellow p-4 px-6 rounded-tl-lg rounded-bl-lg sm:flex items-center h-full">
                 <FontAwesomeIcon
                   icon={faMagnifyingGlass}
                   className="text-lg custom-text-darkblue"
@@ -57,11 +57,11 @@ const MenuPage = () => {
                 <input
                   type="text"
                   placeholder="Enter search here"
-                  className="w-full h-full p-4 px-6 custom-bg-lightblue"
+                  className="w-full h-full p-4 px-6 custom-bg-lightblue rounded-lg sm:rounded-none"
                   required
                 />
               </div>
-              <div className="w-auto custom-bg-darkblue rounded-tr-lg rounded-br-lg h-full flex items-center">
+              <div className="sm:w-auto custom-bg-darkblue rounded-lg mt-2 sm:mt-0 w-full justify-center sm:rounded-tl-none sm:rounded-bl-none sm:rounded-tr-lg sm:rounded-br-lg h-full flex items-center">
                 <button type="submit" className="text-white py-4 px-8">
                   Search
                 </button>

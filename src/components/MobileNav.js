@@ -12,7 +12,7 @@ const MobileNav = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div>
+    <div className="z-20">
       <button
         onClick={() => setToggle(!toggle)}
         className="text-sm font-semibold custom-text-darkblue lg:hidden"
