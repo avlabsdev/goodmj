@@ -70,8 +70,8 @@ const MenuPage = () => {
           </div>
         </section>
         <section className="bg-white rounded-lg p-8">
-          <div className="flex items-center justify-between">
-            <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4">
+          <div className="flex justify-between xl:flex-row lg:flex-col gap-2 items-center md:items-start md:flex-col xl:items-center">
+            <h2 className="text-3xl font-semibold custom-text-darkblue flex gap-4">
               <FontAwesomeIcon icon={faPercent} className="custom-text-green" />
               Discounts & Deals
             </h2>
@@ -79,10 +79,10 @@ const MenuPage = () => {
               *Results based on your current location and search.
             </p>
           </div>
-          <div className="flex gap-8 mt-8">
+          <div className="grid md:grid-cols-1 gap-8 mt-8 lg:grid-cols-2 xl:grid-cols-4">
             <a
               href="#/"
-              className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
+              className="h-full rounded-lg aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
             >
               <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">
                 10% Off
@@ -98,7 +98,7 @@ const MenuPage = () => {
             </a>
             <a
               href="#/"
-              className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
+              className="h-full rounded-lg aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
             >
               <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">
                 20% Off
@@ -114,7 +114,7 @@ const MenuPage = () => {
             </a>
             <a
               href="#/"
-              className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
+              className="h-full rounded-lg aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
             >
               <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">
                 30% Off
@@ -130,14 +130,14 @@ const MenuPage = () => {
             </a>
             <a
               href="#/"
-              className="flex font-medium h-full rounded-lg w-1/4 aspect-square shadow custom-bg-darkblue items-center justify-center text-white"
+              className="flex font-medium h-full rounded-lg aspect-square shadow custom-bg-darkblue items-center justify-center text-white"
             >
               View All
             </a>
           </div>
         </section>
         <section className="bg-white rounded-lg p-8">
-          <div className="flex items-center justify-between">
+          <div className="flex justify-between items-center xl:flex-row lg:flex-col gap-2 md:items-start md:flex-col xl:items-center">
             <h2 className="text-3xl font-semibold custom-text-darkblue flex items-center gap-4">
               <FontAwesomeIcon
                 icon={faRankingStar}
@@ -149,10 +149,10 @@ const MenuPage = () => {
               *Results based on your current location and search.
             </p>
           </div>
-          <div className="flex gap-8 mt-8">
+          <div className="grid md:grid-cols-1 gap-8 mt-8 lg:grid-cols-2 xl:grid-cols-4">
             <a
               href="#/"
-              className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
+              className="h-full rounded-lg aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
             >
               <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">
                 10% Off
@@ -168,7 +168,7 @@ const MenuPage = () => {
             </a>
             <a
               href="#/"
-              className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
+              className="h-full rounded-lg aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
             >
               <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">
                 20% Off
@@ -184,7 +184,7 @@ const MenuPage = () => {
             </a>
             <a
               href="#/"
-              className="h-full rounded-lg w-1/4 aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
+              className="h-full rounded-lg aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
             >
               <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">
                 30% Off
@@ -200,14 +200,14 @@ const MenuPage = () => {
             </a>
             <a
               href="#/"
-              className="flex font-medium h-full rounded-lg w-1/4 aspect-square shadow custom-bg-darkblue items-center justify-center text-white"
+              className="flex font-medium h-full rounded-lg aspect-square shadow custom-bg-darkblue items-center justify-center text-white"
             >
               View All
             </a>
           </div>
         </section>
       </main>
-      <aside className="w-2/6 bg-white rounded-lg h-min sticky top-8">
+      <aside className="w-2/6 bg-white rounded-lg h-min sticky top-2">
         <div>
           <img
             src={storefrontImage}
@@ -215,25 +215,25 @@ const MenuPage = () => {
             className="border-2 border-white rounded-lg rounded-br-none rounded-bl-none"
           />
           <div className="py-5 px-2 bg-white border-l-2 border-r-2 border-white shadow">
-            <h3 className="text-3xl font-medium text-center custom-text-darkblue">
+            <h3 className="text-3xl lg:text-2xl xl:text-3xl font-medium text-center custom-text-darkblue">
               Medical & Recreational Cannabis Dispensary
             </h3>
           </div>
         </div>
-        <div className="p-10 flex flex-col gap-4 custom-bg-lightblue border-l-2 border-r-2 border-white relative">
-          <p className="flex gap-4 z-10">
+        <div className="xl:p-10 lg:p-6 flex flex-col gap-4 custom-bg-lightblue border-l-2 border-r-2 border-white relative">
+          <p className="flex xl:flex-col 2xl:flex-row lg:gap-2 xl:gap-2 z-10">
             <span className="font-medium custom-text-darkblue">Address:</span>{" "}
             12121 Madison Ave, Clifton, OH 44107
           </p>
-          <p className="flex gap-4 z-10">
+          <p className="flex xl:flex-col 2xl:flex-row lg:gap-2 xl:gap-2 z-10">
             <span className="font-medium custom-text-darkblue">Hours:</span>7:00
             AM - 9:00 PM
           </p>
-          <p className="flex gap-4 z-10">
+          <p className="flex xl:flex-col 2xl:flex-row lg:gap-2 xl:gap-2 z-10">
             <span className="font-medium custom-text-darkblue">Phone:</span>
             (123) 456-7890
           </p>
-          <p className="flex gap-4 z-10">
+          <p className="flex xl:flex-col 2xl:flex-row lg:gap-2 xl:gap-2 z-10">
             <span className="font-medium custom-text-darkblue">Shop:</span>
             <a href="#/" className="underline hover:no-underline">
               ordercannabis.com
@@ -242,7 +242,7 @@ const MenuPage = () => {
           <img
             src={mapImage}
             alt="Map"
-            className="absolute w-1/2 -right-8 -bottom-8 overflow-hidden z-0"
+            className="absolute w-1/2 xl:-right-8 lg:-right-10 xl:-bottom-8 lg:-bottom-5 overflow-hidden z-0"
           />
         </div>
         <button className="custom-bg-darkblue text-white w-full p-4 py-6 border-l-2 border-r-2 border-white flex items-center justify-center gap-2 relative z-10">
