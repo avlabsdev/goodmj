@@ -21,7 +21,7 @@ const MobileNav = () => {
       </button>
       {toggle && (
         <>
-          <nav className="lg:flex gap-6 text-md font-semibold custom-text-darkblue absolute max-w-screen max-h-screen flex flex-col top-0 left-0 right-0 bg-white p-16 items-center shadow-lg z-10 rounded-lg">
+          <nav className="lg:flex gap-6 text-md font-semibold custom-text-darkblue absolute flex flex-col top-0 left-0 right-0 bg-white p-16 items-center shadow-lg z-10 rounded-lg">
             <button
               onClick={() => setToggle(!toggle)}
               className="text-sm font-semibold lg:hidden flex items-center gap-2 custom-bg-darkblue text-white p-4 rounded-lg"

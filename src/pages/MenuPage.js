@@ -28,9 +28,9 @@ const MenuPage = () => {
             <img
               src={chalkboardImage}
               alt="Chalkboard sign"
-              className="w-1/4 absolute top-14 right-0 z-0"
+              className="w-1/4 absolute top-14 right-0 z-0 lg:top-20 xl:top-14"
             />
-            <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl flex items-center gap-4">
+            <h1 className="custom-text-green 2xl:text-5xl font-bold xl:text-5xl lg:text-5xl flex items-center gap-4">
               <img
                 src={menuSearchIcon}
                 alt="Cannabis search icon"
@@ -38,7 +38,7 @@ const MenuPage = () => {
               />
               Menu Search
             </h1>
-            <p className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg">
+            <p className="custom-text-darkblue font-semibold 2xl:text-xl xl:text-lg lg:pr-24 lg:text-lg">
               Find menus from dispensaries all around you in an instant.
             </p>
             <p className="my-4 text-sm text-gray-600">
@@ -46,7 +46,7 @@ const MenuPage = () => {
             </p>
           </div>
           <div className="p-8 px-20 pb-20 py-0">
-            <form className="flex w-5/6 items-center text-base font-medium rounded-lg h-full relative z-10">
+            <form className="flex xl:w-5/6 lg:w-full items-center text-base font-medium rounded-lg h-full relative z-10">
               <div className="w-fit custom-bg-yellow p-4 px-6 rounded-tl-lg rounded-bl-lg flex items-center h-full">
                 <FontAwesomeIcon
                   icon={faMagnifyingGlass}
