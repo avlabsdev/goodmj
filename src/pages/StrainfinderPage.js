@@ -75,7 +75,7 @@ const StrainfinderPage = () => {
           <img
             src={strainfinderPreview}
             alt="Strainfinder data preview"
-            className="rounded-bl-lg rounded-br-lg w-full mx-auto shadow-lg"
+            className="rounded-bl-lg rounded-br-lg w-full mx-auto"
           />
           <div className="flex gap-2 mt-4 w-full sm:flex-row flex-col">
             <a
