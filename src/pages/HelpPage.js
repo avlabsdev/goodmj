@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhoneOffice,
   faHeadset,
-  faHeart,
 } from "@awesome.me/kit-bc1b6271da/icons/classic/solid";
 
 import healthIcon from "../images/health.svg";
