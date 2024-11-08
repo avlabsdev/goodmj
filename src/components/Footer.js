@@ -5,8 +5,8 @@ import { faGithub } from "@awesome.me/kit-bc1b6271da/icons/classic/brands";
 const Footer = () => {
   return (
     <div className="container mx-auto py-4 flex flex-col gap-8 m-8 px-4">
-      <footer className="flex justify-between items-center px-4">
-        <p className="text-white">
+      <footer className="flex flex-col sm:flex-row px-0 justify-between items-center sm:px-4 gap-8 sm:gap-0">
+        <p className="text-white text-sm sm:text-base text-center sm:text-left">
           &copy; Copyright 2024{" "}
           <a
             href="https://github.com/avlabsdev"
@@ -24,7 +24,7 @@ const Footer = () => {
           rel="noreferrer"
           aria-label="GitHub"
         >
-          <FontAwesomeIcon icon={faGithub} className="text-xl text-white" />
+          <FontAwesomeIcon icon={faGithub} className="text-2xl text-white" />
         </a>
       </footer>
     </div>
