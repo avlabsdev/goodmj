@@ -71,7 +71,7 @@ const HelpPage = () => {
             alt="Tech support operators"
             className="object-cover h-96 w-full lg:h-full rounded-lg"
           />
-          <div className="bg-white flex w-full sm:flex-row flex-col absolute right-0 left-0 -top-0.5 lg:top-auto lg:bottom-0">
+          <div className="bg-white rounded-lg flex w-full sm:flex-row flex-col absolute right-0 left-0 -top-0.5 lg:top-auto lg:bottom-0">
             <a
               href="#/"
               className="py-4 text-center lg:rounded-bl-lg rounded-tr-lg lg:rounded-tr-none rounded-tl-lg lg:rounded-tl-none sm:rounded-tr-none md:rounded-tr-none custom-bg-darkblue text-white font-medium w-full shadow border-r-2 border-t-2 border-white flex items-center justify-center gap-2"
