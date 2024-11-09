@@ -43,7 +43,7 @@ const ServicesPage = () => {
                   Benefits & Discounts
                 </p>
               </div>
-              <div className="w-full p-4 px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
+              <div className="w-full px-8 py-10 sm:p-4 sm:px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
                 <p>
                   Obtain a medical cannabis card for extra benefits and
                   discounted pricing.
@@ -67,7 +67,7 @@ const ServicesPage = () => {
                   Dispensary Locations
                 </p>
               </div>
-              <div className="w-full p-4 px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
+              <div className="w-full px-8 py-10 sm:p-4 sm:px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
                 <p>We work with all dispensaries in the USA.</p>
               </div>
               <div className="py-4 px-5 custom-bg-darkblue sm:rounded-tr-lg sm:rounded-br-lg flex items-center justify-center rounded-bl-lg rounded-br-lg sm:rounded-bl-none gap-2">
@@ -86,7 +86,7 @@ const ServicesPage = () => {
                 <img src={pillsIcon} alt="Medication icon" className="w-12" />
                 <p className="sm:hidden custom-text-darkblue">Proper Dosages</p>
               </div>
-              <div className="w-full p-4 px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
+              <div className="w-full px-8 py-10 sm:p-4 sm:px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
                 <p>
                   Get the proper dosages you need for easier medicine
                   administration.
@@ -110,7 +110,7 @@ const ServicesPage = () => {
                   Cannabis Products
                 </p>
               </div>
-              <div className="w-full p-4 px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
+              <div className="w-full px-8 py-10 sm:p-4 sm:px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
                 <p>
                   All the cannabis products you need at a price you can afford.
                 </p>
@@ -137,7 +137,7 @@ const ServicesPage = () => {
                   Quality Assurance
                 </p>
               </div>
-              <div className="w-full p-4 px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
+              <div className="w-full px-8 py-10 sm:p-4 sm:px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
                 <p>
                   All products are rigorously lab tested for quality assurance.
                 </p>
