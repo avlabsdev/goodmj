@@ -36,100 +36,33 @@ const ServicesPage = () => {
               title="Benefits & Discounts"
               content="Obtain a medical cannabis card for extra benefits and discounted
             pricing."
+              footNote="Click for more details"
             />
-            <a
-              href="#/"
-              className="flex-col sm:flex-row flex text-base font-medium rounded-lg"
-            >
-              <div className="rounded-tl-lg rounded-tr-lg custom-bg-yellow p-4 sm:rounded-tl-lg sm:rounded-bl-lg flex items-center justify-center sm:rounded-tr-none gap-2">
-                <img src={locationIcon} alt="Location icon" className="w-12" />
-                <p className="sm:hidden custom-text-darkblue">
-                  Dispensary Locations
-                </p>
-              </div>
-              <div className="w-full px-8 py-10 sm:p-4 sm:px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
-                <p>We work with all dispensaries in the USA.</p>
-              </div>
-              <div className="py-4 px-5 custom-bg-darkblue sm:rounded-tr-lg sm:rounded-br-lg flex items-center justify-center rounded-bl-lg rounded-br-lg sm:rounded-bl-none gap-2">
-                <FontAwesomeIcon
-                  icon={faCircleInfo}
-                  className="text-white text-3xl"
-                />
-                <p className="sm:hidden text-white">Click for more details</p>
-              </div>
-            </a>
-            <a
-              href="#/"
-              className="flex-col sm:flex-row flex text-base font-medium rounded-lg"
-            >
-              <div className="rounded-tl-lg rounded-tr-lg custom-bg-yellow p-4 sm:rounded-tl-lg sm:rounded-bl-lg flex items-center justify-center sm:rounded-tr-none gap-2">
-                <img src={pillsIcon} alt="Medication icon" className="w-12" />
-                <p className="sm:hidden custom-text-darkblue">Proper Dosages</p>
-              </div>
-              <div className="w-full px-8 py-10 sm:p-4 sm:px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
-                <p>
-                  Get the proper dosages you need for easier medicine
-                  administration.
-                </p>
-              </div>
-              <div className="py-4 px-5 custom-bg-darkblue sm:rounded-tr-lg sm:rounded-br-lg flex items-center justify-center rounded-bl-lg rounded-br-lg sm:rounded-bl-none gap-2">
-                <FontAwesomeIcon
-                  icon={faCircleInfo}
-                  className="text-white text-3xl"
-                />
-                <p className="sm:hidden text-white">Click for more details</p>
-              </div>
-            </a>
-            <a
-              href="#/"
-              className="flex-col sm:flex-row flex text-base font-medium rounded-lg"
-            >
-              <div className="rounded-tl-lg rounded-tr-lg custom-bg-yellow p-4 sm:rounded-tl-lg sm:rounded-bl-lg flex items-center justify-center sm:rounded-tr-none gap-2">
-                <img src={bagIcon} alt="Shopping bag icon" className="w-12" />
-                <p className="sm:hidden custom-text-darkblue">
-                  Cannabis Products
-                </p>
-              </div>
-              <div className="w-full px-8 py-10 sm:p-4 sm:px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
-                <p>
-                  All the cannabis products you need at a price you can afford.
-                </p>
-              </div>
-              <div className="py-4 px-5 custom-bg-darkblue sm:rounded-tr-lg sm:rounded-br-lg flex items-center justify-center rounded-bl-lg rounded-br-lg sm:rounded-bl-none gap-2">
-                <FontAwesomeIcon
-                  icon={faCircleInfo}
-                  className="text-white text-3xl"
-                />
-                <p className="sm:hidden text-white">Click for more details</p>
-              </div>
-            </a>
-            <a
-              href="#/"
-              className="flex-col sm:flex-row flex text-base font-medium rounded-lg"
-            >
-              <div className="rounded-tl-lg rounded-tr-lg custom-bg-yellow p-4 sm:rounded-tl-lg sm:rounded-bl-lg flex items-center justify-center sm:rounded-tr-none gap-2">
-                <img
-                  src={extractIcon}
-                  alt="Lab testing icon"
-                  className="w-12"
-                />
-                <p className="sm:hidden custom-text-darkblue">
-                  Quality Assurance
-                </p>
-              </div>
-              <div className="w-full px-8 py-10 sm:p-4 sm:px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
-                <p>
-                  All products are rigorously lab tested for quality assurance.
-                </p>
-              </div>
-              <div className="py-4 px-5 custom-bg-darkblue sm:rounded-tr-lg sm:rounded-br-lg flex items-center justify-center rounded-bl-lg rounded-br-lg sm:rounded-bl-none gap-2">
-                <FontAwesomeIcon
-                  icon={faCircleInfo}
-                  className="text-white text-3xl"
-                />
-                <p className="sm:hidden text-white">Click for more details</p>
-              </div>
-            </a>
+            <FeatureCard
+              img={locationIcon}
+              title="Dispensary Locations"
+              content="We work with all dispensaries in the USA."
+              footNote="Click for more details"
+            />
+            <FeatureCard
+              img={pillsIcon}
+              title="Proper Dosages"
+              content="Get the proper dosages you need for easier medicine
+                  administration."
+              footNote="Click for more details"
+            />
+            <FeatureCard
+              img={bagIcon}
+              title="Cannabis Products"
+              content="All the cannabis products you need at a price you can afford."
+              footNote="Click for more details"
+            />
+            <FeatureCard
+              img={extractIcon}
+              title="Quality Assurance"
+              content="All products are rigorously lab tested for quality assurance."
+              footNote="Click for more details"
+            />
           </div>
           <div className="lg:w-2/6 flex flex-col gap-6 md:w-full">
             <img

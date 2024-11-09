@@ -14,6 +14,7 @@ const FeatureCard = (props) => {
   let img = props.img;
   let title = props.title;
   let content = props.content;
+  let footNote = props.footNote;
   return (
     <>
       <a
@@ -32,7 +33,7 @@ const FeatureCard = (props) => {
             icon={faCircleInfo}
             className="text-white text-3xl"
           />
-          <p className="sm:hidden text-white">Click for more details</p>
+          <p className="sm:hidden text-white">{footNote}</p>
         </div>
       </a>
     </>
