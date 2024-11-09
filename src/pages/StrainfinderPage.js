@@ -27,7 +27,7 @@ const StrainfinderPage = () => {
           <p className="mt-4 text-sm text-gray-600">
             *Search for a strain or product.
           </p>
-          <form className="flex flex-col sm:flex-row gap-2 sm:gap-0 w-full md:w-4/6 text-base font-medium rounded-lg relative z-10 h-full items-stretch">
+          <form className="flex flex-col sm:flex-row gap-2 sm:gap-0 w-full md:w-4/6 text-base font-medium rounded-lg relative z-0 h-full items-stretch">
             <div className="w-fit custom-bg-yellow p-4 px-6 rounded-tl-lg rounded-bl-lg sm:flex items-center hidden">
               <FontAwesomeIcon
                 icon={faMagnifyingGlass}

@@ -1,10 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faUser,
-  faFileSignature,
-} from "@awesome.me/kit-bc1b6271da/icons/classic/solid";
+import { faFileSignature } from "@awesome.me/kit-bc1b6271da/icons/classic/solid";
 import logo from "../logo.svg";
 import MobileNav from "./MobileNav";
+import LogIn from "./LogIn";
+import SignUp from "./SignUp";
 
 const Navbar = () => {
   return (
@@ -19,21 +18,8 @@ const Navbar = () => {
             <span className="font-bold">Good</span>Mj
           </a>
           <div className="hidden pl-6 border-l-2 text-sm sm:flex items-center gap-2">
-            <a
-              href="#/"
-              className="underline hover:no-underline flex items-center gap-2 font-medium"
-            >
-              <FontAwesomeIcon icon={faUser} className="w-3" />
-              Login
-            </a>{" "}
-            /{" "}
-            <a
-              href="#/"
-              className="underline hover:no-underline flex items-center gap-2 font-medium"
-            >
-              <FontAwesomeIcon icon={faFileSignature} className="w-4" />
-              Signup
-            </a>
+            {/* Add Login button here */}
+            <LogIn /> / <SignUp />
           </div>
         </div>
         <MobileNav />

@@ -24,7 +24,7 @@ const HelpPage = () => {
           <p className="mt-4 text-sm text-gray-600">
             *Submit a trouble ticket below, give us a call, or start a chat.
           </p>
-          <form className="flex w-full items-center text-base font-medium rounded-lg h-full relative z-10 flex-col gap-8">
+          <form className="flex w-full items-center text-base font-medium rounded-lg h-full relative z-0 flex-col gap-8">
             <div className="w-full h-full flex flex-col gap-2">
               <label for="name">Name:</label>
               <input
