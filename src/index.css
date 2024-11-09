@@ -19,6 +19,10 @@ body {
   background-color: #52b68b;
 }
 
+.custom-border-green {
+  border-color: #52b68b;
+}
+
 .custom-text-darkblue {
   color: #0c214a;
 }

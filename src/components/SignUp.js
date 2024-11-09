@@ -59,6 +59,20 @@ export default function SignUp() {
               Sign Up
             </button>
           </form>
+          <div className="flex flex-col gap-4 justify-center items-center font-normal mt-4 text-center">
+            <p className="italic text-sm text-gray-600">
+              You are viewing the <b>demo version</b> of this app.
+            </p>
+            <hr className="bg-gray-500 w-1/2" />
+            <div className="flex flex-col gap-2 justify-center items-center font-normal text-base">
+              <p className="font-medium">
+                Want a sneak-peak of the authorized user experience?
+              </p>
+              <span className="custom-text-darkblue font-bold border-b-2 custom-border-green">
+                hello@avlabs.dev
+              </span>
+            </div>
+          </div>
         </div>
       )}
     </div>
