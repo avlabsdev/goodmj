@@ -10,6 +10,8 @@ import pillsIcon from "../images/pills.svg";
 import bagIcon from "../images/bag.svg";
 import extractIcon from "../images/extract.svg";
 
+import FeatureCard from "../components/FeatureCard";
+
 const ServicesPage = () => {
   return (
     <div className="container mx-auto flex flex-col gap-8">
@@ -29,34 +31,12 @@ const ServicesPage = () => {
             <p className="mt-4 text-sm text-gray-600">
               *Click on any of the below services or features to learn more.
             </p>
-            <a
-              href="#/"
-              className="flex-col sm:flex-row flex text-base font-medium rounded-lg"
-            >
-              <div className="rounded-tl-lg rounded-tr-lg custom-bg-yellow p-4 sm:rounded-tl-lg sm:rounded-bl-lg sm:rounded-tr-none flex items-center justify-center gap-2">
-                <img
-                  src={drugsIcon}
-                  alt="Cannabis bottle icon"
-                  className="w-12"
-                />
-                <p className="sm:hidden custom-text-darkblue">
-                  Benefits & Discounts
-                </p>
-              </div>
-              <div className="w-full px-8 py-10 sm:p-4 sm:px-6 custom-bg-lightblue flex items-center text-center sm:text-left">
-                <p>
-                  Obtain a medical cannabis card for extra benefits and
-                  discounted pricing.
-                </p>
-              </div>
-              <div className="py-4 px-5 custom-bg-darkblue sm:rounded-tr-lg sm:rounded-br-lg flex items-center justify-center rounded-bl-lg rounded-br-lg sm:rounded-bl-none gap-2">
-                <FontAwesomeIcon
-                  icon={faCircleInfo}
-                  className="text-white text-3xl"
-                />
-                <p className="sm:hidden text-white">Click for more details</p>
-              </div>
-            </a>
+            <FeatureCard
+              img={drugsIcon}
+              title="Benefits & Discounts"
+              content="Obtain a medical cannabis card for extra benefits and discounted
+            pricing."
+            />
             <a
               href="#/"
               className="flex-col sm:flex-row flex text-base font-medium rounded-lg"
