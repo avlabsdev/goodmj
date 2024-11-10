@@ -2,14 +2,6 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleInfo } from "@awesome.me/kit-bc1b6271da/icons/classic/solid";
 
-// import certIcon from "../images/certificate.svg";
-// import weedLabPhoto from "../images/weed-lab.jpg";
-import drugsIcon from "../images/drugs.svg";
-// import locationIcon from "../images/location.svg";
-// import pillsIcon from "../images/pills.svg";
-// import bagIcon from "../images/bag.svg";
-// import extractIcon from "../images/extract.svg";
-
 const FeatureCard = (props) => {
   let img = props.img;
   let title = props.title;
