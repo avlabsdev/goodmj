@@ -34,7 +34,6 @@ const HelpPage = () => {
       chatBtn.classList.add("hidden");
       // go from 2xl width down to sm and mobile ensuring border-radius changes
     }, 4000);
-
     // setTimeout(() => {
     //   phoneBtn.textContent = `End Call`;
     // }, 4000);
@@ -84,10 +83,10 @@ const HelpPage = () => {
             alt="Tech support operators"
             className="object-cover h-96 w-full lg:h-full rounded-lg border-r-2 border-l-2 border-t-2"
           />
-          <div className="bg-white rounded-lg rounded-tl-none rounded-tr-none flex w-full sm:flex-row flex-col absolute right-0 left-0 -top-0.5 lg:top-auto lg:bottom-0 border-2 border-white items-center">
+          <div className="bg-white rounded-lg rounded-tl-lg rounded-tr-lg rounded-bl-none rounded-br-none flex w-full absolute right-0 left-0 -top-0.5 lg:rounded-bl-lg lg:rounded-tl-none lg:rounded-tr-none lg:rounded-br-lg lg:top-auto lg:bottom-0 border-2 border-white items-center">
             <a
               href="#/"
-              className="py-4 text-center lg:rounded-bl-lg rounded-tr-lg lg:rounded-tr-none rounded-tl-lg lg:rounded-tl-none sm:rounded-tr-none md:rounded-tr-none custom-bg-darkblue text-white font-medium w-full shadow flex items-center justify-center gap-2 border-0"
+              className="py-4 text-center lg:rounded-bl-lg rounded-tr-none lg:rounded-tr-none rounded-tl-lg lg:rounded-tl-none sm:rounded-tr-none md:rounded-tr-none custom-bg-darkblue text-white font-medium w-full shadow flex items-center justify-center gap-2 border-0"
               onClick={handleCallClick}
               id="phone-call-btn"
               // use first button for inital events, then unhide the red button behind the front button for the ability to end call and return to the two button options again for call or chat
