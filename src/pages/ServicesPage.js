@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleInfo } from "@awesome.me/kit-bc1b6271da/icons/classic/solid";
 
 import certIcon from "../images/certificate.svg";
 import weedLabPhoto from "../images/weed-lab.jpg";

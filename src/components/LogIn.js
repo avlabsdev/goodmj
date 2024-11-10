@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faUser,
   faXmark,
-  faFileSignature,
 } from "@awesome.me/kit-bc1b6271da/icons/classic/solid";
 
 export default function LogIn() {

@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileSignature } from "@awesome.me/kit-bc1b6271da/icons/classic/solid";
 import logo from "../logo.svg";
 import MobileNav from "./MobileNav";
 import LogIn from "./LogIn";

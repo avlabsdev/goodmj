@@ -1,13 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPeopleLine,
-  faAward,
-  faCreditCardFront,
-} from "@awesome.me/kit-bc1b6271da/icons/classic/solid";
-
-import scalesIcon from "../images/law.svg";
-import plansHeroGfx from "../images/plans-hero-gfx.png";
 import checkIcon from "../images/check-icon.svg";
 
 const PlanCard = (props) => {
