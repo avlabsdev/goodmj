@@ -55,3 +55,8 @@ input::placeholder,
 textarea::placeholder {
   @apply font-normal custom-text-darkblue opacity-50;
 }
+
+input,
+textarea {
+  @apply font-normal;
+}
