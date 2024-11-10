@@ -8,6 +8,7 @@ import {
 
 import healthIcon from "../images/health.svg";
 import operatorsImage from "../images/operators.jpg";
+import HelpForm from "../components/HelpForm";
 
 const HelpPage = () => {
   return (
@@ -24,44 +25,7 @@ const HelpPage = () => {
           <p className="mt-4 text-sm text-gray-600">
             *Submit a trouble ticket below, give us a call, or start a chat.
           </p>
-          <form className="flex w-full items-center text-base font-medium rounded-lg h-full relative z-0 flex-col gap-8">
-            <div className="w-full h-full flex flex-col gap-2">
-              <label for="name">Name:</label>
-              <input
-                id="name"
-                type="text"
-                placeholder="Enter name here"
-                className="w-full h-full p-4 px-6 custom-bg-lightblue rounded-lg"
-                required
-              />
-            </div>
-            <div className="w-full h-full flex flex-col gap-2">
-              <label for="name">Email:</label>
-              <input
-                id="name"
-                type="text"
-                placeholder="Enter email here"
-                className="w-full h-full p-4 px-6 custom-bg-lightblue rounded-lg"
-                required
-              />
-            </div>
-            <div className="w-full h-full flex flex-col gap-2">
-              <label for="name">Message:</label>
-              <textarea
-                id="name"
-                type="text"
-                placeholder="Enter message here"
-                className="w-full h-full p-4 px-6 custom-bg-lightblue rounded-lg"
-                required
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              className="py-4 text-center rounded-lg custom-bg-green text-white font-medium w-full shadow"
-            >
-              Send Message
-            </button>
-          </form>
+          <HelpForm />
         </div>
       </section>
       <section className="flex lg:w-1/2 flex-col sticky top-8 gap-8">
