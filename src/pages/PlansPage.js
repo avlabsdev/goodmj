@@ -1,5 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPeopleLine,
   faAward,
@@ -8,7 +7,6 @@ import {
 
 import scalesIcon from "../images/law.svg";
 import plansHeroGfx from "../images/plans-hero-gfx.png";
-import checkIcon from "../images/check-icon.svg";
 
 import PlanCard from "../components/PlanCard";
 
@@ -67,7 +65,7 @@ const PlansPage = () => {
             buttonText="Select Plan"
           />
           <PlanCard
-            icon={faPeopleLine}
+            icon={faCreditCardFront}
             title="Pay-As-You-Go Perk Plan"
             price="$20 Per Month"
             items={payAsYouGoList}
