@@ -29,6 +29,11 @@ const HelpPage = () => {
       audio.play();
       phoneBtn.textContent = `Hello, how can I help?`;
       phoneBtn.classList.add("w-full");
+      if (window.innerWidth < 1024) {
+        phoneBtn.style.borderRadius = "0.5rem 0.5rem 0 0";
+      } else {
+        phoneBtn.style.borderRadius = "0 0 0.5rem 0.5rem";
+      }
       // phoneBtn.style.backgroundColor = "#ef4444";
       phoneBtn.classList.add("scale-up-hor-left");
       chatBtn.classList.add("hidden");
