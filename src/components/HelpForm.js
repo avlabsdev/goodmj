@@ -20,6 +20,9 @@ export default function Contact() {
     if (data.success) {
       setResult("Form Submitted Successfully");
       event.target.reset();
+      setTimeout(() => {
+        setResult("");
+      }, 3000);
     } else {
       console.log("Error", data);
       setResult(data.message);
@@ -60,46 +63,9 @@ export default function Contact() {
           Submit Form
         </button>
       </form>
-      <span>{result}</span>
-
-      {/* <form className="flex w-full items-center text-base font-medium rounded-lg h-full relative z-0 flex-col gap-8">
-            <div className="w-full h-full flex flex-col gap-2">
-              <label for="name">Name:</label>
-              <input
-                id="name"
-                type="text"
-                placeholder="Enter name here"
-                className="w-full h-full p-4 px-6 custom-bg-lightblue rounded-lg"
-                required
-              />
-            </div>
-            <div className="w-full h-full flex flex-col gap-2">
-              <label for="name">Email:</label>
-              <input
-                id="name"
-                type="text"
-                placeholder="Enter email here"
-                className="w-full h-full p-4 px-6 custom-bg-lightblue rounded-lg"
-                required
-              />
-            </div>
-            <div className="w-full h-full flex flex-col gap-2">
-              <label for="name">Message:</label>
-              <textarea
-                id="name"
-                type="text"
-                placeholder="Enter message here"
-                className="w-full h-full p-4 px-6 custom-bg-lightblue rounded-lg"
-                required
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              className="py-4 text-center rounded-lg custom-bg-green text-white font-medium w-full shadow"
-            >
-              Send Message
-            </button>
-          </form> */}
+      <span className="custom-text-green text-center text-sm mt-8 flex items-center justify-center">
+        {result}
+      </span>
     </div>
   );
 }
