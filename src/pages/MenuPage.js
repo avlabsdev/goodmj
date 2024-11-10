@@ -19,6 +19,8 @@ import vapePensImage from "../images/canna-vape-pens.jpg";
 import storefrontImage from "../images/storefront.jpg";
 import mapImage from "../images/maps-gfx.png";
 
+import ProductCard from "../components/ProductCard";
+
 const MenuPage = () => {
   return (
     <div className="container mx-auto flex gap-2">
@@ -80,54 +82,21 @@ const MenuPage = () => {
             </p>
           </div>
           <div className="grid sm:grid-cols-2 gap-8 mt-8 lg:grid-cols-2 xl:grid-cols-4">
-            <a
-              href="#/"
-              className="h-full rounded-lg aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
-            >
-              <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">
-                10% Off
-              </span>
-              <span className="absolute bottom-0 flex items-center justify-center w-full custom-bg-green text-white py-2 rounded-br-lg rounded-bl-lg">
-                Oils
-              </span>
-              <img
-                src={cannabisOilsImage}
-                alt="Cannabis oil"
-                className="h-full w-full object-cover rounded-lg"
-              />
-            </a>
-            <a
-              href="#/"
-              className="h-full rounded-lg aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
-            >
-              <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">
-                20% Off
-              </span>
-              <span className="absolute bottom-0 flex items-center justify-center w-full custom-bg-green text-white py-2 rounded-br-lg rounded-bl-lg">
-                Edibles
-              </span>
-              <img
-                src={cannabisEdiblesImage}
-                alt="Cannabis edibles"
-                className="h-full w-full object-cover rounded-lg"
-              />
-            </a>
-            <a
-              href="#/"
-              className="h-full rounded-lg aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
-            >
-              <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">
-                30% Off
-              </span>
-              <span className="absolute bottom-0 flex items-center justify-center w-full custom-bg-green text-white py-2 rounded-br-lg rounded-bl-lg">
-                Vape Cartridges
-              </span>
-              <img
-                src={cannabisCartImage}
-                alt="Cannabis vape cartridge"
-                className="h-full w-full object-cover rounded-lg"
-              />
-            </a>
+            <ProductCard
+              discount="10% Off"
+              title="Oils"
+              img={cannabisOilsImage}
+            />
+            <ProductCard
+              discount="20% Off"
+              title="Edibles"
+              img={cannabisEdiblesImage}
+            />
+            <ProductCard
+              discount="30% Off"
+              title="Vape Cartridge"
+              img={cannabisCartImage}
+            />
             <a
               href="#/"
               className="flex font-medium h-16 w-full sm:h-full rounded-lg aspect-square shadow custom-bg-darkblue items-center justify-center text-white"
@@ -150,54 +119,13 @@ const MenuPage = () => {
             </p>
           </div>
           <div className="grid sm:grid-cols-2 gap-8 mt-8 lg:grid-cols-2 xl:grid-cols-4">
-            <a
-              href="#/"
-              className="h-full rounded-lg aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
-            >
-              <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">
-                10% Off
-              </span>
-              <span className="absolute bottom-0 flex items-center justify-center w-full custom-bg-green text-white py-2 rounded-br-lg rounded-bl-lg">
-                Flower
-              </span>
-              <img
-                src={budsImage}
-                alt="Cannabis buds"
-                className="h-full w-full object-cover rounded-lg"
-              />
-            </a>
-            <a
-              href="#/"
-              className="h-full rounded-lg aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
-            >
-              <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">
-                20% Off
-              </span>
-              <span className="absolute bottom-0 flex items-center justify-center w-full custom-bg-green text-white py-2 rounded-br-lg rounded-bl-lg">
-                Oils
-              </span>
-              <img
-                src={lifeOilsImage}
-                alt="Cannabis oils"
-                className="h-full w-full object-cover rounded-lg"
-              />
-            </a>
-            <a
-              href="#/"
-              className="h-full rounded-lg aspect-square border-2 border-white shadow relative flex hover:-mt-1 ease-in-out duration-200"
-            >
-              <span className="flex items-center justify-center font-medium absolute uppercase left-0 top-8 px-4 py-2 custom-bg-yellow custom-text-darkblue rounded-lg shadow rounded-tl-none rounded-bl-none">
-                30% Off
-              </span>
-              <span className="absolute bottom-0 flex items-center justify-center w-full custom-bg-green text-white py-2 rounded-br-lg rounded-bl-lg">
-                Disposable Vapes
-              </span>
-              <img
-                src={vapePensImage}
-                alt="Cannabis oils"
-                className="h-full w-full object-cover rounded-lg"
-              />
-            </a>
+            <ProductCard discount="10% Off" title="Flower" img={budsImage} />
+            <ProductCard discount="20% Off" title="Oils" img={lifeOilsImage} />
+            <ProductCard
+              discount="30% Off"
+              title="Disposable Vapes"
+              img={vapePensImage}
+            />
             <a
               href="#/"
               className="flex font-medium h-full rounded-lg aspect-square shadow custom-bg-darkblue items-center justify-center text-white h-16 w-full sm:h-full"
