@@ -47,7 +47,7 @@ const MenuPage = () => {
               *Search by dispensary name, address, or zip code.
             </p>
           </div>
-          <div className="p-10 pt-0 sm:p-20 sm:pt-0 sm:px-10 sm:pb-10">
+          <div className="p-10 pt-0 md:px-20 sm:p-20 sm:pt-0 sm:px-10 sm:pb-10">
             <form className="flex flex-col sm:flex-row sm:w-full xl:w-5/6 lg:w-full items-center text-base font-medium rounded-lg h-full relative z-0">
               <div className="hidden w-fit custom-bg-yellow p-4 px-6 rounded-tl-lg rounded-bl-lg sm:flex items-center h-full">
                 <FontAwesomeIcon
