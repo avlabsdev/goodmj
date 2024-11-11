@@ -1,6 +1,6 @@
 import React from "react";
 import weedJarPhoto from "../images/weed-jar.jpg";
-import givingHandPhoto from "../images/giving-cannabis.svg";
+import cannabisIcon from "../images/cannabis.svg";
 
 const HomePage = () => {
   return (
@@ -16,7 +16,7 @@ const HomePage = () => {
           </div>
           <div className="2xl:text-left xl:text-left lg:text-left md:p-20 2xl:w-1/2 md:w-full flex flex-col gap-4 justify-center relative sm:text-center p-5 2xl:py-48 xl:py-36 lg:py-32 md:py-8">
             <img
-              src={givingHandPhoto}
+              src={cannabisIcon}
               alt="Giving hands with cannabis leaf in palm"
               className="2xl:absolute xl:absolute lg:absolute 2xl:w-1/4 2xl:top-16 2xl:right-20 xl:w-1/5 xl:top-16 xl:right-20 lg:top-16 lg:w-1/5 lg:right-20 md:w-1/3 md:relative md:top-0 mx-auto sm:w-1/3 xs:w-1/5 w-1/3 relative sm:relative sm:top-0 top-0 right-0"
             />

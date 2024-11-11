@@ -1,4 +1,4 @@
-import logo from "../logo.svg";
+import logo from "../images/giving-cannabis.svg";
 import MobileNav from "./MobileNav";
 import LogIn from "./LogIn";
 import SignUp from "./SignUp";
@@ -16,7 +16,6 @@ const Navbar = () => {
             <span className="font-bold">Good</span>Mj
           </a>
           <div className="hidden pl-6 border-l-2 text-sm sm:flex items-center gap-2">
-            {/* Add Login button here */}
             <LogIn /> / <SignUp />
           </div>
         </div>
