@@ -79,7 +79,7 @@ const StrainfinderPage = () => {
           />
           <div className="flex gap-2 mt-4 w-full sm:flex-row flex-col">
             <a
-              href="#/"
+              href="/menu"
               className="py-4 text-center rounded-md custom-bg-green text-white font-medium w-full shadow"
             >
               Locate Dispensaries
