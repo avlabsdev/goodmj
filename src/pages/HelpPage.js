@@ -17,6 +17,7 @@ const HelpPage = () => {
   function handleCallClick() {
     const phoneBtn = document.querySelector("#phone-call-btn");
     const chatBtn = document.querySelector("#chat-start-btn");
+    const supportAlert = document.querySelector("#support-btn-alert");
     phoneBtn.textContent = "Calling...";
     const audio = new Audio(ring);
     audio.play();
@@ -37,6 +38,7 @@ const HelpPage = () => {
       // phoneBtn.style.backgroundColor = "#ef4444";
       phoneBtn.classList.add("scale-up-hor-left");
       chatBtn.classList.add("hidden");
+      supportAlert.classList.remove("hidden");
       // go from 2xl width down to sm and mobile ensuring border-radius changes
     }, 4000);
     // setTimeout(() => {
@@ -46,6 +48,7 @@ const HelpPage = () => {
   function handleChatClick() {
     const phoneBtn = document.querySelector("#phone-call-btn");
     const chatBtn = document.querySelector("#chat-start-btn");
+    const supportAlert = document.querySelector("#support-btn-alert");
     chatBtn.textContent = "Connecting...";
     setTimeout(() => {
       chatBtn.textContent = "Connected!";
@@ -57,6 +60,7 @@ const HelpPage = () => {
       // phoneBtn.style.backgroundColor = "#ef4444";
       chatBtn.classList.add("scale-up-hor-right");
       phoneBtn.classList.add("hidden");
+      supportAlert.classList.remove("hidden");
       // go from 2xl width down to sm and mobile ensuring border-radius changes
     }, 4000);
 
@@ -88,7 +92,7 @@ const HelpPage = () => {
             alt="Tech support operators"
             className="object-cover h-96 w-full lg:h-full rounded-lg border-r-2 border-l-2 border-t-2"
           />
-          <div className="bg-white rounded-lg rounded-tl-lg rounded-tr-lg rounded-bl-none rounded-br-none flex w-full absolute right-0 left-0 -top-0.5 lg:rounded-bl-lg lg:rounded-tl-none lg:rounded-tr-none lg:rounded-br-lg lg:top-auto lg:bottom-0 border-2 border-white items-center">
+          <div className="bg-white rounded-lg rounded-tl-lg rounded-tr-lg rounded-bl-none rounded-br-none flex w-full absolute right-0 left-0 -top-0.5 lg:rounded-bl-lg lg:rounded-tl-none lg:rounded-tr-none lg:rounded-br-lg lg:top-auto lg:bottom-0 border-2 border-white justify-center items-center">
             <button
               href="#/"
               className="py-4 text-center lg:rounded-bl-lg rounded-tr-none lg:rounded-tr-none rounded-tl-lg lg:rounded-tl-none sm:rounded-tr-none md:rounded-tr-none custom-bg-darkblue text-white font-medium w-full shadow flex items-center justify-center gap-2 border-0"
@@ -123,6 +127,14 @@ const HelpPage = () => {
               Start a Chat
             </button>
           </div>
+          <p
+            className="absolute top-16 w-auto text-center px-8 py-4 bg-yellow-200 m-4 rounded-lg text-black hidden fade-in lg:bottom-16 lg:top-auto"
+            id="support-btn-alert"
+          >
+            <span className="font-bold">*Note:</span> Please refresh the page
+            after a button click. I am still working on the END CALL/END CHAT
+            buttons/button functionality.
+          </p>
         </div>
       </section>
     </div>
