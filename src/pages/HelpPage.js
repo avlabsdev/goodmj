@@ -94,7 +94,6 @@ const HelpPage = () => {
           />
           <div className="bg-white rounded-lg rounded-tl-lg rounded-tr-lg rounded-bl-none rounded-br-none flex w-full absolute right-0 left-0 -top-0.5 lg:rounded-bl-lg lg:rounded-tl-none lg:rounded-tr-none lg:rounded-br-lg lg:top-auto lg:bottom-0 border-2 border-white justify-center items-center">
             <button
-              href="#/"
               className="py-4 text-center lg:rounded-bl-lg rounded-tr-none lg:rounded-tr-none rounded-tl-lg lg:rounded-tl-none sm:rounded-tr-none md:rounded-tr-none custom-bg-darkblue text-white font-medium w-full shadow flex items-center justify-center gap-2 border-0"
               onClick={handleCallClick}
               id="phone-call-btn"
@@ -115,7 +114,6 @@ const HelpPage = () => {
               End Call
             </a> */}
             <button
-              href="/services"
               onClick={handleChatClick}
               className="py-4 text-center bg-white custom-text-darkblue font-medium w-full shadow lg:rounded-br-lg rounded-tr-lg lg:rounded-tr-none flex items-center justify-center gap-2"
               id="chat-start-btn"
