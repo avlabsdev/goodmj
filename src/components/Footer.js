@@ -15,7 +15,7 @@ const Footer = () => {
             className="underline hover:no-underline"
           >
             AV Labs
-          </a>
+          </a>{" "}
           2024. All rights reserved.
         </p>
         <a
