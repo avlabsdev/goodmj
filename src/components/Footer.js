@@ -14,9 +14,9 @@ const Footer = () => {
             rel="noreferrer"
             className="underline hover:no-underline"
           >
-            AV Labs 2024
+            AV Labs
           </a>
-          . All rights reserved.
+          2024. All rights reserved.
         </p>
         <a
           href="https://avlabs.dev"
